@@ -1,0 +1,20 @@
+Source: kdeadmin
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
+ libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1), libxml2-utils,
+ kdepimlibs4-dev (>=4:3.90.1), libfam-dev, libbz2-dev, libpcre++-dev
+Standards-Version: 3.7.2
+
+Package: kdeadmin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: system administration tools from the official KDE release
+ KDE (the K Desktop Environment) is a powerful Open Source graphical
+ desktop environment for Unix workstations. It combines ease of use,
+ contemporary functionality, and outstanding graphical design with the
+ technological superiority of the Unix operating system.
+ .
+ This metapackage includes a collection of system administration tools
+ provided with the official release of KDE.
