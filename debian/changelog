@@ -1,3 +1,12 @@
+kdeadmin (4:3.94.0-1) unstable; urgency=low
+
+  * KDE4 beta3, first upload to the Debian archive.
+  * Split out programs: kcron, knetworkconf, kpackage and kuser.
+  * Update build-deps.
+  * Add not-installed file.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 18 Oct 2007 23:34:52 +0200
+
 kdeadmin (4:3.90.1-1) unstable; urgency=low
 
   * Initial release.
