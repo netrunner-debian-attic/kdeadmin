@@ -3,14 +3,15 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>. Armin Berres <trigger+debian@space-based.de>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=3.94.0)
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=3.94.0),
+ docbook-to-man
 Standards-Version: 3.7.2
 
 Package: kdeadmin
 Section: kde
 Architecture: all
-Depends: kcron (>= ${source:Version}), knetworkconf (>= ${Source:Version}), 
- kpackage (>= ${Source:Version}), kuser (>= ${Source:Version})
+Depends: kcron (>= ${source:Version}), knetworkconf (>= ${source:Version}), 
+ kpackage (>= ${source:Version}), kuser (>= ${source:Version})
 Description: system administration tools from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,

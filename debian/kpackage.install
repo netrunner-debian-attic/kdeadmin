@@ -47,3 +47,6 @@ usr/share/doc/kde4/HTML/en/kpackage/left.png
 usr/share/doc/kde4/HTML/en/kpackage/slackloc.png
 usr/share/doc/kde4/HTML/en/kpackage/rpmloc.png
 usr/share/doc/kde4/HTML/en/kpackage/install.png
+
+debian/icons/kpackage.xpm       /usr/share/pixmaps
+debian/icons/kpackage-16.xpm        /usr/share/pixmaps

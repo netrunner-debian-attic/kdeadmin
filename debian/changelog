@@ -7,6 +7,10 @@ kdeadmin (4:3.94.0-1) unstable; urgency=low
   * Port manpages, menu, icons and doc-base files from KDE3 package.
   * Update uploaders.
 
+  TODO:
+  -convert docbooks to HTML? otherwise doc-base files are useless
+  -copyright files
+
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 18 Oct 2007 23:34:52 +0200
 
 kdeadmin (4:3.90.1-1) unstable; urgency=low
