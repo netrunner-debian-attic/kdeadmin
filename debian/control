@@ -1,15 +1,16 @@
 Source: kdeadmin
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>. Armin Berres <trigger+debian@space-based.de>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=3.94.0)
 Standards-Version: 3.7.2
 
 Package: kdeadmin
 Section: kde
 Architecture: all
-Depends: kcron (>= ${Source-Version}), knetworkconf (>= ${Source-Version}), 
- kpackage (>= ${Source-Version}), kuser (>= ${Source-Version})
+Depends: kcron (>= ${source:Version}), knetworkconf (>= ${Source:Version}), 
+ kpackage (>= ${Source:Version}), kuser (>= ${Source:Version})
 Description: system administration tools from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -17,7 +18,7 @@ Description: system administration tools from the official KDE release
  technological superiority of the Unix operating system.
  .
  This metapackage includes a collection of system administration tools
- provided with the official release of KDE.
+ provided with the official release of KDE4.
 
 Package: kcron
 Section: admin
@@ -28,18 +29,18 @@ Description: the KDE crontab editor
  KCron is an application for scheduling programs to run in the background.
  It is a graphical user interface to cron, the UNIX system scheduler.
  .
- This package is part of KDE, as a component of the KDE administration module.
+ This package is part of KDE4, as a component of the KDE4 administration module.
  See the 'kde' and 'kdeadmin' packages for more information.
 
 Package: knetworkconf
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: KDE network configuration tool
+Description: KDE4 network configuration tool
  This is a KDE control center module to configure TCP/IP settings.  It
  can be used to manage network devices and settings for each device.
  .
- This package is part of KDE, as a component of the KDE administration module.
+ This package is part of KDE4, as a component of the KDE4 administration module.
  See the 'kde' and 'kdeadmin' packages for more information.
 
 Package: kpackage
@@ -53,7 +54,7 @@ Description: KDE package management tool
  to view currently installed packages, browse available packages, and
  install/remove them.
  .
- This package is part of KDE, as a component of the KDE administration module.
+ This package is part of KDE4, as a component of the KDE4 administration module.
  See the 'kde' and 'kdeadmin' packages for more information.
 
 Package: kuser
@@ -64,7 +65,7 @@ Suggests: khelpcenter
 Description: KDE user/group administration tool
  A user/group administration tool for KDE.
  .
- This package is part of KDE, as a component of the KDE administration module.
+ This package is part of KDE4, as a component of the KDE4 administration module.
  See the 'kde' and 'kdeadmin' packages for more information.
 
 Package: kdeadmin-dbg

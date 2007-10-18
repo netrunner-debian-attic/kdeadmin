@@ -4,7 +4,8 @@ kdeadmin (4:3.94.0-1) unstable; urgency=low
   * Split out programs: kcron, knetworkconf, kpackage and kuser.
   * Update build-deps.
   * Add not-installed file.
-  * Port manpages, menu, icons and doc-base files from KDE· package.
+  * Port manpages, menu, icons and doc-base files from KDE3 package.
+  * Update uploaders.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 18 Oct 2007 23:34:52 +0200
 
