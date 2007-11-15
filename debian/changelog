@@ -4,6 +4,11 @@ kdeadmin (4:3.96.0-1) experimental; urgency=low
   * Update *.install files.
   * Bump b-d on >=3.96.0
 
+  TODO:
+  -convert docbooks to HTML? otherwise doc-base files are useless
+  -copyright files
+  -xpm files are not installed
+
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Nov 2007 18:09:24 +0100
 
 kdeadmin (4:3.94.0-1) experimental; urgency=low
@@ -14,10 +19,6 @@ kdeadmin (4:3.94.0-1) experimental; urgency=low
   * Add not-installed file.
   * Port manpages, menu, icons and doc-base files from KDE3 package.
   * Update uploaders.
-
-  TODO:
-  -convert docbooks to HTML? otherwise doc-base files are useless
-  -copyright files
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 18 Oct 2007 23:34:52 +0200
 
