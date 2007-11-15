@@ -1,4 +1,10 @@
-kdeadmin (4:3.94.0-1) unstable; urgency=low
+kdeadmin (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Nov 2007 18:09:24 +0100
+
+kdeadmin (4:3.94.0-1) experimental; urgency=low
 
   * KDE4 beta3, first upload to the Debian archive.
   * Split out programs: kcron, knetworkconf, kpackage and kuser.
@@ -13,7 +19,7 @@ kdeadmin (4:3.94.0-1) unstable; urgency=low
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 18 Oct 2007 23:34:52 +0200
 
-kdeadmin (4:3.90.1-1) unstable; urgency=low
+kdeadmin (4:3.90.1-1) experimental; urgency=low
 
   * Initial release.
 
