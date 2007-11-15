@@ -1,6 +1,8 @@
 kdeadmin (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release. 
+  * Update *.install files.
+  * Bump b-d on >=3.96.0
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Nov 2007 18:09:24 +0100
 
