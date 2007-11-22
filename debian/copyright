@@ -12,6 +12,18 @@ Copyright:
 Unless something else is mentioned, copyright is
 (C) 1996-2007, The K Desktop Enviroment project http://www.kde.org
 
+  kcron:
+    Copyright (C) 1999, Gary Meyer <gary@meyer.net>
+    Copyright (C) 1999, Robert Berry <rjmber@ntlworld.com> 
+
+  kdat:
+    Copyright (C) 2001-2002  Lawrence Widman, kdat@cardiothink.com
+    Copyright (C) 1998-2000  Sean Vyain, svyain@mail.tds.net
+
+  knetworkconf:
+    Copyright (C) 2003-2005 by Juan Luis Baptiste
+
+
 License:
 
 Unless something else is mentioned, the code files in this package are under
@@ -34,10 +46,9 @@ the GNU General Public License:
   Debian systems in /usr/share/common-licenses/GPL-2.
 
 
+Files under doc/
 
-
-The documentation docbook files in this package, placed under docs/, are under 
-the GNU Free Documentation License:
+These files are under the GNU Free Documentation License v1.2
 
     | Permission is granted to copy, distribute and/or modify this
     | document under the terms of the GNU Free Documentation License,
@@ -45,14 +56,34 @@ the GNU Free Documentation License:
     | Foundation; with no Invariant Sections, with no Front-Cover Texts,
     | and with no Back-Cover Texts.
 
-  The full text of the GNU Free Documentation License is available on
-  Debian systems in /usr/share/common-licenses/GFDL-1.2
+    The full text of the GNU Free Documentation License is available on
+    Debian systems in /usr/share/common-licenses/GFDL-1.2
 
-As well, all the Manpages.dox included are under this license, unless specified 
-otherwise below.
+    As well, all the Manpages.dox included are under this license, unless specified  
+    otherwise below.
 
 
+Files under kcron/
 
+    These files are under the GPL v2 or later.
+
+
+Files under kdat/
+
+    These files are under the GPL v2 or later.
+    
+
+Files under knetworkconf/
+
+    These files are under the GPL v2 or later. Except: ...
+
+
+Files under kpackage/
+Files under ksysv/
+Files under kuser/
+Files under lilo-config/
+Files under secpolicy/
+Files under strigi-analyzer/
 
 
 
