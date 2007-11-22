@@ -19,6 +19,3 @@ usr/share/icons/hicolor/48x48/apps/kuser.png
 usr/share/doc/kde4/HTML/en/kuser/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kuser/index.docbook
 usr/share/doc/kde4/HTML/en/kuser/kuser.png
-
-debian/icons/kuser.xpm      /usr/share/pixmaps
-debian/icons/kuser-16.xpm   /usr/share/pixmaps
