@@ -59,8 +59,8 @@ These files are under the GNU Free Documentation License v1.2
     The full text of the GNU Free Documentation License is available on
     Debian systems in /usr/share/common-licenses/GFDL-1.2
 
-    As well, all the Manpages.dox included are under this license, unless specified  
-    otherwise below.
+    As well, all the Manpages.dox included are under this license, unless 
+    specified otherwise below.
 
 
 Files under kcron/
@@ -75,16 +75,57 @@ Files under kdat/
 
 Files under knetworkconf/
 
-    These files are under the GPL v2 or later. Except: ...
+    These files are under the GPL v2 or later, with some files under 
+    the LGPL v2 or later.
 
 
 Files under kpackage/
+
+    These files are under the GPL v2 or later.
+
+
 Files under ksysv/
+
+    These files are under the GPL v2.
+
+
 Files under kuser/
+
+    These files are under the GPL v2.
+
+
 Files under lilo-config/
+
+    These files are under the GPL v2 or later.
+
+
 Files under secpolicy/
+
+    These files are under this license:
+
+    | Redistribution and use in source and binary forms, with or without
+    | modification, are permitted provided that the following conditions
+    | are met:
+    |
+    | 1. Redistributions of source code must retain the above copyright
+    |    notice, this list of conditions and the following disclaimer.
+    |
+    | THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+    | ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+    | IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+    | ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+    | FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+    | DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+    | OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+    | HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+    | LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+    | OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+    | SUCH DAMAGE.
+
+
 Files under strigi-analyzer/
 
+    These files are under the GPL v2.
 
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
