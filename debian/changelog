@@ -1,26 +1,12 @@
 kdeadmin (4:3.96.0-1) experimental; urgency=low
 
-  * New upstream release. 
+  * KDE 4.0 rc1, first upload to the Debian archive.
   * Update *.install files.
-  * Bump b-d on >=3.96.0
-
-  TODO:
-  -convert docbooks to HTML? otherwise doc-base files are useless
-  -copyright files
-  -xpm files are not installed
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Nov 2007 18:09:24 +0100
-
-kdeadmin (4:3.94.0-1) experimental; urgency=low
-
-  * KDE4 beta3, first upload to the Debian archive.
   * Split out programs: kcron, knetworkconf, kpackage and kuser.
   * Update build-deps.
   * Add not-installed file.
-  * Port manpages, menu, icons and doc-base files from KDE3 package.
-  * Update uploaders.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 18 Oct 2007 23:34:52 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 23 Nov 2007 20:42:05 +0100
 
 kdeadmin (4:3.90.1-1) experimental; urgency=low
 
