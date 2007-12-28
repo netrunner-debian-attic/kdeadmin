@@ -1,3 +1,12 @@
+kdeadmin (4:3.98.0~svn753247-1) experimental; urgency=low
+
+  * Svn snapshot of revision 753247.
+  * Remove LDFLAGS+="-Wl,--as-needed". It was integrated into
+    cdbs/kde.mk.
+  * Update *.install files.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 28 Dec 2007 19:32:29 +0100
+
 kdeadmin (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release.
