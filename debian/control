@@ -13,10 +13,12 @@ Section: kde
 Architecture: all
 Depends: kcron (>= ${binary:Version}), knetworkconf (>= ${binary:Version}), kpackage (>= ${binary:Version}), kuser (>= ${binary:Version})
 Description: system administration tools from the official KDE 4 release
- KDE (the K Desktop Environment) is a powerful Open Source graphical
- desktop environment for Unix workstations. It combines ease of use,
- contemporary functionality, and outstanding graphical design with the
- technological superiority of the Unix operating system.
+ KDE is produced by an international technology team that creates free and open
+ source software for desktop and portable computing. Among KDE's products are a
+ modern desktop system for Linux and UNIX platforms, comprehensive office
+ productivity and groupware suites and hundreds of software titles in many
+ categories including Internet and web applications, multimedia, entertainment,
+ educational, graphics and software development.
  .
  This metapackage includes a collection of system administration tools
  provided with the official release of KDE 4.
