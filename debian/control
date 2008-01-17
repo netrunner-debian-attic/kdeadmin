@@ -13,7 +13,7 @@ Section: kde
 Architecture: all
 Depends: kcron (>= ${binary:Version}), knetworkconf (>= ${binary:Version}),
  kpackage (>= ${binary:Version}), kuser (>= ${binary:Version})
-Description: system administration tools from the official KDE 4 release
+Description: System administration tools from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -29,7 +29,7 @@ Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: the KDE 4 crontab editor
+Description: Program scheduler for KDE 4
  KCron is an application for scheduling programs to run at specific intervals
  using cron, the UNIX scheduling service.
  .
@@ -39,7 +39,7 @@ Package: knetworkconf
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: KDE 4 network configuration tool
+Description: Network configuration tool for KDE 4
  KNetworkConf is a system settings module to configure networking.
  It can be used to manage network devices, gateways, and host information.
  .
@@ -51,7 +51,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, smartpm-core
 Recommends: rpm
 Suggests: khelpcenter
-Description: KDE 4 package management tool
+Description: Package management tool for KDE 4
  KPackage is a frontend to the SMART package manager, supporting Debian, RPM,
  and other package formats.  It can be used to search for, examine, install,
  and remove packages.
@@ -63,7 +63,7 @@ Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: KDE 4 user and group administration tool
+Description: User and group administration tool for KDE 4
  KUser is an application for managing users and groups on your system.
  .
  This package is part of the KDE 4 administration module.
@@ -73,7 +73,7 @@ Section: libdevel
 Architecture: any
 Depends: kdelibs-dbg
 Priority: extra
-Description: debugging symbols for kdeadmin
+Description: Debugging symbols for kdeadmin
  This package contains the debugging symbols associated with kdeadmin.
  They will automatically be used by gdb for debugging kdeadmin-related
  issues.
