@@ -11,8 +11,8 @@ Homepage: http://www.kde.org/
 Package: kdeadmin
 Section: kde
 Architecture: all
-Depends: kcron (>= ${binary:Version}), knetworkconf (>= ${binary:Version}),
- kpackage (>= ${binary:Version}), kuser (>= ${binary:Version})
+Depends: kcron (>= ${source:Version}), knetworkconf (>= ${source:Version}),
+ kpackage (>= ${source:Version}), kuser (>= ${source:Version})
 Description: System administration tools from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -49,8 +49,7 @@ Package: kpackage
 Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}, smartpm-core
-Recommends: rpm
-Suggests: khelpcenter
+Suggests: khelpcenter, rpm
 Description: Package management tool for KDE 4
  KPackage is a frontend to the SMART package manager, supporting Debian, RPM,
  and other package formats.  It can be used to search for, examine, install,
@@ -72,6 +71,7 @@ Package: kdeadmin-dbg
 Section: libdevel
 Architecture: any
 Depends: kdebase-runtime-dbg
+Suggests: kdeadmin (= ${source:Version})
 Priority: extra
 Description: Debugging symbols for kdeadmin
  This package contains the debugging symbols associated with kdeadmin.
