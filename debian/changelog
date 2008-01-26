@@ -1,15 +1,14 @@
-kdeadmin (4:4.0.0-2) UNRELEASED; urgency=low
+kdeadmin (4:4.0.0-2) experimental; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
   * Tweak package descriptions.
-  * Add Depends: smartpm-core to kpackage (Closes: #??????).
+  * Add Depends: smartpm-core to kpackage and rpm Recommends to Suggests.
   * Change kdeadmin-dbg Depends from kdelibs-dbg to kdebase-runtime-dbg.
-  * Lower rpm Recommends to Suggests.
   * Use source:Version for kdeadmin metapackage.
   * Add Suggests: kdeadmin to kdeadmin-dbg.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jan 2008 23:40:35 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Jan 2008 17:56:26 +0100
 
 kdeadmin (4:4.0.0-1) experimental; urgency=low
 
