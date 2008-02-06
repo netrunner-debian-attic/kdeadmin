@@ -4,6 +4,7 @@ usr/share/kde4/apps/kcron/kcronui.rc
 usr/share/icons/hicolor/22x22/apps/kcron.png
 usr/share/icons/hicolor/16x16/apps/kcron.png
 usr/share/icons/hicolor/32x32/apps/kcron.png
+usr/share/doc/kde4/HTML/en/kcron/common
 usr/share/doc/kde4/HTML/en/kcron/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcron/index.docbook
 usr/share/doc/kde4/HTML/en/kcron/newvariable.png

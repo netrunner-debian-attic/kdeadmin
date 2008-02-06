@@ -1,9 +1,17 @@
-kdeadmin (4:4.0.1-1) UNRELEASED; urgency=low
+kdeadmin (4:4.0.1-1) experimental; urgency=low
 
   * New upstream release.
-  * Update to debhelper 6.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 02 Feb 2008 05:57:20 +0100
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump kdepimlibs5-dev build dependency to >= 4:4.0.1-1.
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump compat/debhelper to 6.
+  * Add Vcs-Browser and Vcs-Svn fields.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Feb 2008 18:45:28 +0100
 
 kdeadmin (4:4.0.0-2) experimental; urgency=low
 
