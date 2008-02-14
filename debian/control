@@ -38,7 +38,7 @@ Description: program scheduler for KDE 4
  This package is part of the KDE 4 administration module.
 
 Package: knetworkconf
-Section: kde
+Section: net
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: network configuration tool for KDE 4
