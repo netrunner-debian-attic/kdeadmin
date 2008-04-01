@@ -3,7 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, kdepimlibs5-dev (>= 4:4.0.2),
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, 
+ kdepimlibs5-dev (>= 4:4.0.66),
  docbook-to-man
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
@@ -14,7 +15,8 @@ Package: kdeadmin
 Section: kde
 Architecture: all
 Depends: kcron (>= ${source:Version}), knetworkconf (>= ${source:Version}),
- kpackage (>= ${source:Version}), kuser (>= ${source:Version})
+ kpackage (>= ${source:Version}), ksystemlog (>= ${source:Version}),
+ kuser (>= ${source:Version})
 Description: system administration tools from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -56,6 +58,21 @@ Description: package management tool for KDE 4
  KPackage is a frontend to the SMART package manager, supporting Debian, RPM,
  and other package formats.  It can be used to search for, examine, install,
  and remove packages.
+ .
+ This package is part of the KDE 4 administration module.
+
+Package: ksystemlog
+Section: admin
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: system log viewer for KDE 4
+ KSystemLog show all logs of your system, grouped by General (Default system 
+ log, Authentication, Kernel, X.org...), and optional Services. (Apache, Cups,
+ etc, ...). It includes many features to read nicely your log files:
+  * Colorize log lines depending on their severities
+  * Tabbed view to allow displaying several logs at the same time
+  * Auto display new lines logged
+  * Detailed informations for each log lines
  .
  This package is part of the KDE 4 administration module.
 
