@@ -1,6 +1,9 @@
-kdeadmin (4:4.0.73-1) UNRELEASED; urgency=low
+kdeadmin (4:4.0.73+svn806431-1) UNRELEASED; urgency=low
 
-  * New upstream snapshot.
+  * New upstream snapshot:
+    - The latest upstream commit is r806431 by scripty
+    - Date: Sun May 11 11:54:06 2008 UTC
+
   * Update ksystemlog install file.
 
  -- Fathi Boudra <fabo@debian.org>  Sun, 11 May 2008 18:03:59 +0200
