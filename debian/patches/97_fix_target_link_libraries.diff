@@ -1,7 +1,5 @@
-Index: kdeadmin-4.0.71+svn801741/knetworkconf/knetworkconf/CMakeLists.txt
-===================================================================
---- kdeadmin-4.0.71+svn801741.orig/knetworkconf/knetworkconf/CMakeLists.txt	2008-04-28 20:29:53.000000000 +0000
-+++ kdeadmin-4.0.71+svn801741/knetworkconf/knetworkconf/CMakeLists.txt	2008-04-28 20:29:53.000000000 +0000
+--- a/knetworkconf/knetworkconf/CMakeLists.txt
++++ b/knetworkconf/knetworkconf/CMakeLists.txt
 @@ -35,7 +35,7 @@
  
  

@@ -1,4 +1,5 @@
 usr/bin/ksystemlog
+usr/share/applications/kde4/ksystemlog.desktop
 usr/share/doc/kde4/HTML/en/ksystemlog/common
 usr/share/doc/kde4/HTML/en/ksystemlog/filter-process.png
 usr/share/doc/kde4/HTML/en/ksystemlog/first-opening.png
@@ -14,4 +15,3 @@ usr/share/icons/hicolor/48x48/apps/ksystemlog.png
 usr/share/icons/hicolor/64x64/apps/ksystemlog.png
 usr/share/icons/hicolor/scalable/apps/ksystemlog.svgz
 usr/share/kde4/apps/ksystemlog/ksystemlogui.rc
-usr/share/kde4/services/ksystemlog.desktop
