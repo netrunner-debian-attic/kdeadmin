@@ -1,9 +1,9 @@
-kdeadmin (4:4.0.74-1) UNRELEASED; urgency=low
+kdeadmin (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot.
   * Update ksystemlog install file.
 
- -- Fathi Boudra <fabo@debian.org>  Sun, 11 May 2008 18:03:59 +0200
+ -- Fathi Boudra <fabo@debian.org>  Sun, 18 May 2008 00:36:54 +0200
 
 kdeadmin (4:4.0.72-1) experimental; urgency=low
 
