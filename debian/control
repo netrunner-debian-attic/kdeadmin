@@ -1,4 +1,4 @@
-Source: kdeadmin
+source: kdeadmin
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -51,8 +51,8 @@ Description: network configuration tool for KDE 4
 Package: kpackage
 Section: admin
 Architecture: any
-Depends: ${shlibs:Depends}, smartpm-core
-Suggests: khelpcenter, rpm
+Depends: ${shlibs:Depends}
+Suggests: khelpcenter, rpm, smartpm-core
 Description: package management tool for KDE 4
  KPackage is a frontend to the SMART package manager, supporting Debian, RPM,
  and other package formats.  It can be used to search for, examine, install,
