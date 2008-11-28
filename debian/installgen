@@ -1,0 +1,18 @@
+[kcron]
+from:/kcron/
+
+[knetworkconf]
+miss dst:usr/lib/pkgconfig/system-tools-backends.pc$
+from:/knetworkconf/
+
+[kpackage]
+from:/kpackage/
+
+[ksystemlog]
+from:/ksystemlog/
+
+[kuser]
+from:/kuser/
+
+[lilo-config_virtual]
+missing from:/lilo-config/
