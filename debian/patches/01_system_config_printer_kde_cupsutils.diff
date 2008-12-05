@@ -1,0 +1,22 @@
+--- a/system-config-printer-kde/cmake-modules/FindSystemConfigPrinter.py
++++ b/system-config-printer-kde/cmake-modules/FindSystemConfigPrinter.py
+@@ -8,7 +8,7 @@
+ sys.path.append (SYSTEM_CONFIG_PRINTER_DIR)
+ 
+ try:
+-    import cupshelpers.ppds, cupshelpers.cupshelpers
++    import cupsutils.ppds, cupsutils.cupshelpers
+ except:
+     exit(1)
+ print "Groovy"
+--- a/system-config-printer-kde/system-config-printer-kde.py
++++ b/system-config-printer-kde/system-config-printer-kde.py
+@@ -65,7 +65,7 @@
+ 
+ # These come from system-config-printer
+ import config
+-import cupshelpers  #, options
++import cupsutils as cupshelpers  #, options
+ from smburi import SMBURI
+ from debug import *
+ 

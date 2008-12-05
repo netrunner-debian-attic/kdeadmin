@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
- kdepimlibs5-dev (>= 4:4.1.80), docbook-to-man
+ kdepimlibs5-dev (>= 4:4.1.80), docbook-to-man,
+ python-kde4 (>= 4:4.1.82), python-qt4-dev (>= 4.4.4), python-cups, python-cupsutils
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeadmin
@@ -16,6 +17,7 @@ Architecture: all
 Depends: kcron (>= ${source:Version}), knetworkconf (>= ${source:Version}),
  kpackage (>= ${source:Version}), ksystemlog (>= ${source:Version}),
  kuser (>= ${source:Version})
+Recommends: system-config-printer-kde (>= ${source:Version})
 Description: system administration tools from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -82,6 +84,17 @@ Depends: ${shlibs:Depends}
 Suggests: khelpcenter
 Description: user and group administration tool for KDE 4
  KUser is an application for managing users and groups on your system.
+ .
+ This package is part of the KDE 4 administration module.
+
+Package: system-config-printer-kde
+Section: admin
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends},
+ python-kde4 (>= 4:4.1.82), system-config-printer
+Description: KDE 4 printer configuration utility
+ This package contains a KDE4 based application which can be used to configure
+ and manage printers.
  .
  This package is part of the KDE 4 administration module.
 

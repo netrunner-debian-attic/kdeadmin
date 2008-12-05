@@ -14,5 +14,8 @@ from:/ksystemlog/
 [kuser]
 from:/kuser/
 
+[system-config-printer-kde]
+from:/system-config-printer-kde/
+
 [lilo-config_virtual]
 missing from:/lilo-config/

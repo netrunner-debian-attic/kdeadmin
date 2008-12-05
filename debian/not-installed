@@ -1,16 +1,4 @@
-
-#secpoliciy is not shipped because it is useless
-./usr/bin/secpolicy
-
-
 #This file serves no purpose that we can see, and conflicts
 #with GNOME system tools, so be sure to leave it out.
 ./usr/lib/pkgconfig/system-tools-backends.pc
-
-#we don't currently ship lilo-config. Adding a build-dep on lilo makes these automatically built
-./usr/lib/kde4/kcm_lilo.so
-./usr/share/doc/kde4/HTML/en/lilo-config/common
-./usr/share/doc/kde4/HTML/en/lilo-config/index.cache.bz2
-./usr/share/doc/kde4/HTML/en/lilo-config/index.docbook
-./usr/share/kde4/services/lilo.desktop
 
