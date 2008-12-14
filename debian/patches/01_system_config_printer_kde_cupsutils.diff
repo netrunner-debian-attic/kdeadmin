@@ -33,14 +33,16 @@
  
  import dbus
  import dbus.mainloop.qt
-@@ -1312,8 +1313,8 @@
+@@ -1311,9 +1312,9 @@
+         printer = self.printer
          self.lblPMakeModel.setText(printer.make_and_model)
          state = self.printer_states.get (printer.state, i18nc("Printer state", "Unknown"))
-         state = self.printer_states.get (printer.state, i18nc("Printer state", "Unknown")).split(" - ")[0]
--        if len (reason) > 0:
--            state += ' - ' + reason
-+#        if len (reason) > 0:
-+#            state += ' - ' + reason
+-	reason = printer.other_attributes.get ('printer-state-message', '')
+-	if len (reason) > 0:
+-	    state += ' - ' + reason
++	    reason = printer.other_attributes.get ('printer-state-message', '')
++#	    if len (reason) > 0:
++#	        state += ' - ' + reason
          self.lblPState.setText(state)
          if len (self.changed) == 0:
              debugprint ("no changes yet: full printer properties update")
