@@ -1,4 +1,4 @@
-kdeadmin (4:4.1.96+svn906816-0r1) UNRELEASED; urgency=low
+kdeadmin (4:4.1.96+svn910827-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -14,7 +14,7 @@ kdeadmin (4:4.1.96+svn906816-0r1) UNRELEASED; urgency=low
     - set INSTALL_SYSTEM_CONFIG_PRINTER cmake flag;
     - build depend on python-support.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Jan 2009 13:57:34 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Jan 2009 01:46:19 +0200
 
 kdeadmin (4:4.1.3-1) experimental; urgency=low
 
