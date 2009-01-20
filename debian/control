@@ -89,7 +89,7 @@ Description: user and group administration tool for KDE 4
 Package: system-config-printer-kde
 Section: admin
 Architecture: all
-Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends},
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, python-qt4-dbus,
  python-kde4 (>= 4:4.1.82), system-config-printer (>= 1.0.0)
 Description: KDE 4 printer configuration utility
  This package contains a KDE4 based application which can be used to configure
