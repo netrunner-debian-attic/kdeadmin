@@ -1,10 +1,10 @@
-kdeadmin (4:4.1.96+svn910827-0r1) UNRELEASED; urgency=low
+kdeadmin (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   +++ Changes by Modestas Vainius:
 
-  * Bump KDE build dependencies to 4.1.96.
+  * Bump KDE build dependencies to 4.2.0.
   * Bump Standards-Version to 3.8.0: add README.source.
   * Remove explicit cmake build dependency.
   * Add debian/installgen.

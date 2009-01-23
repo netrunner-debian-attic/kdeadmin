@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
- kdepimlibs5-dev (>= 4:4.1.96), docbook-to-man, python-support
+ kdepimlibs5-dev (>= 4:4.2.0), docbook-to-man, python-support
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeadmin
@@ -90,7 +90,7 @@ Package: system-config-printer-kde
 Section: admin
 Architecture: all
 Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, python-qt4-dbus,
- python-kde4 (>= 4:4.1.82), system-config-printer (>= 1.0.0)
+ python-kde4 (>= 4:4.2.0), system-config-printer (>= 1.0.0)
 Description: KDE 4 printer configuration utility
  This package contains a KDE4 based application which can be used to configure
  and manage printers.
