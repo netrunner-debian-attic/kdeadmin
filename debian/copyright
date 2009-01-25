@@ -15,13 +15,50 @@ Unless something else is mentioned, copyright is
   kcron:
     Copyright (C) 1999, Gary Meyer <gary@meyer.net>
     Copyright (C) 1999, Robert Berry <rjmber@ntlworld.com> 
+    Copyright (C) 2007, Nicolas Ternisien
 
   kdat:
     Copyright (C) 2001-2002  Lawrence Widman, kdat@cardiothink.com
     Copyright (C) 1998-2000  Sean Vyain, svyain@mail.tds.net
+    Copyright (C) 1997 Johannes Sixt
+    Copyright (C) 1996 Keith Brown and KtSoft
 
   knetworkconf:
     Copyright (C) 2003-2005 by Juan Luis Baptiste
+    Copyright (C) 2000-2001 Ximian, inc
+    Copyright (C) Michael Vogt  <mvo@debian.org>
+    Copyright (C) Grzegorz Golawski <grzegol@pld-linux.org>
+    Copyright (C) David Lee Ludwig <davidl@wpi.edu>
+    Copyright (C) Kenneth Christiansen <kenneth@gnu.org>
+  
+  kpackage:
+    Copyright (C) 1999-2007 Toivo Pedaste <toivo@ucs.uwa.edu.au>
+    Copyright (C) Damyan Pepper
+
+  ksystemlog:
+    Copyright (C) 2007 Nicolas Ternisien <nicolas.ternisien@gmail.com>
+
+  ksysv:
+    Copyright (C) 1997-2000 Peter Putzer <putzer@kde.org>
+    Copyright (C) 1999 Preston Brown <pbrown@kde.org>
+    Copyright (C) 2002 Waldo Bastian <bastian@kde.org>
+
+  kuser:
+    Copyright (C) 1998 Denis Perchine <dyp@perchine.org>
+    Copyright (C) 2004-2006 Szombathelyi Gyurgy <guerco@freemail.hu>
+    Copyright (C) 2002 Waldo Bastian <bastian@kde.org>
+
+  lilo-config:
+    Copyright (C) 2000-2001 Bernhard Rosenkraenzer
+
+  strigi-analyzer:
+    Copyright (C) 2002 Laurence Anderson <l.d.anderson@warwick.ac.uk>
+
+  system-config-printer-kde:
+    Copyright (C) 2008 Jonathan Riddell <jriddell@ubuntu.com>
+    Copyright (C) 2007 Tim Waugh <twaugh@redhat.com>
+    Copyright (C) 2007 Red Hat, Inc.
+
 
 
 License:
@@ -31,7 +68,8 @@ the GNU General Public License:
 
     | This program is free software; you can redistribute it and/or modify
     | it under the terms of the GNU General Public License as published by
-    | the Free Software Foundation; version 2 dated June, 1991.
+    | the Free Software Foundation; either version 2 of the License or, 
+    | (at your option) any later version.
     |
     | This package is distributed in the hope that it will be useful,
     | but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -86,12 +124,12 @@ Files under kpackage/
 
 Files under ksysv/
 
-    These files are under the GPL v2.
+    These files are under the GPL v2 or later. Some under GPLv2only. Effectively GPLv2only.
 
 
 Files under kuser/
 
-    These files are under the GPL v2.
+    These files are under the GPL v2 or later. Some under GPLv2only. Effectively GPLv2only.
 
 
 Files under lilo-config/
@@ -99,33 +137,39 @@ Files under lilo-config/
     These files are under the GPL v2 or later.
 
 
-Files under secpolicy/
-
-    These files are under this license:
-
-    | Redistribution and use in source and binary forms, with or without
-    | modification, are permitted provided that the following conditions
-    | are met:
-    |
-    | 1. Redistributions of source code must retain the above copyright
-    |    notice, this list of conditions and the following disclaimer.
-    |
-    | THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
-    | ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    | IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-    | ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
-    | FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    | DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-    | OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-    | HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-    | LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-    | OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-    | SUCH DAMAGE.
-
-
 Files under strigi-analyzer/
 
     These files are under the GPL v2.
+
+Files under system-config-printer-kde/
+    
+    cmake/ is under bsd license (CMAKE-COPYING-SCRIPTS):
+
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions
+	are met:
+
+	1. Redistributions of source code must retain the copyright
+	   notice, this list of conditions and the following disclaimer.
+	2. Redistributions in binary form must reproduce the copyright
+	   notice, this list of conditions and the following disclaimer in the
+	   documentation and/or other materials provided with the distribution.
+	3. The name of the author may not be used to endorse or promote products 
+	   derived from this software without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+	IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+	OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+	IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+	INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+	NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+	DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+	THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+	THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+   Rest GPLv2 or later.
+
 
 
 The Debian packaging is (C) 2007-2008, Debian Qt/KDE Maintainers and
