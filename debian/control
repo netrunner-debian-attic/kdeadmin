@@ -98,7 +98,7 @@ Description: KDE 4 printer configuration utility
  This package is part of the KDE 4 administration module.
 
 Package: kdeadmin-dbg
-Section: libdevel
+Section: debug
 Architecture: any
 Depends: kdebase-runtime-dbg
 Suggests: kdeadmin (= ${source:Version})
