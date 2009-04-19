@@ -8,7 +8,7 @@ kdeadmin (4:4.2.2-2) UNRELEASED; urgency=low
 
   * Fix kuser to start UID/GID at 1000 when adding new users (Closes: #434883).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2009 05:46:08 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Apr 2009 23:15:03 +0300
 
 kdeadmin (4:4.2.2-1) unstable; urgency=low
 
