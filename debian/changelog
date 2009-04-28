@@ -3,6 +3,7 @@ kdeadmin (4:4.2.2-2) UNRELEASED; urgency=low
   +++ Changes by Sune Vuorela:
 
   * Fix sections.
+  * Don't ship kcron manpages. Kcron is now a kcm module.
 
   +++ Changes by Modestas Vainius:
 
