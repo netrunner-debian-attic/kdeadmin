@@ -1,6 +1,6 @@
 --- a/system-config-printer-kde/cmake-modules/FindSystemConfigPrinter.py
 +++ b/system-config-printer-kde/cmake-modules/FindSystemConfigPrinter.py
-@@ -8,7 +8,7 @@
+@@ -8,7 +8,7 @@ SYSTEM_CONFIG_PRINTER_DIR = "/usr/share/
  sys.path.append (SYSTEM_CONFIG_PRINTER_DIR)
  
  try:
@@ -11,7 +11,7 @@
  print "Groovy"
 --- a/system-config-printer-kde/system-config-printer-kde.py
 +++ b/system-config-printer-kde/system-config-printer-kde.py
-@@ -34,7 +34,7 @@
+@@ -34,7 +34,7 @@ import thread
  
  #load modules from system-config-printer-common (debug, smburi), change path here if you have it installed elsewhere
  SYSTEM_CONFIG_PRINTER_DIR = "/usr/share/system-config-printer"
@@ -20,7 +20,7 @@
      sys.path.append(SYSTEM_CONFIG_PRINTER_DIR)
  
  from PyQt4.QtCore import *
-@@ -65,9 +65,10 @@
+@@ -65,9 +65,10 @@ cups.require ("1.9.27")
  
  # These come from system-config-printer
  import config
@@ -33,7 +33,7 @@
  
  import dbus
  import dbus.mainloop.qt
-@@ -1695,7 +1696,7 @@
+@@ -1695,7 +1696,7 @@ class NewPrinterGUI(QDialog):
              c = cups.Connection ()
              debugprint ("Fetching PPDs")
              ppds_dict = c.getPPDs()
@@ -42,7 +42,7 @@
                                                       language=language)
              debugprint ("Closing connection (PPDs)")
              del c
-@@ -1921,7 +1922,7 @@
+@@ -1921,7 +1922,7 @@ class NewPrinterGUI(QDialog):
                          ppddict = self.ppds.getInfoFromPPDName (ppdname)
                          make_model = ppddict['ppd-make-and-model']
                          (make, model) = \
@@ -51,7 +51,7 @@
                          self.auto_make = make
                          self.auto_model = model
                  except:
-@@ -2293,7 +2294,7 @@
+@@ -2293,7 +2294,7 @@ class NewPrinterGUI(QDialog):
          if make_and_model and not device.id:
              mk = None
              md = None
