@@ -1,2 +1,3 @@
 01_system_config_printer_kde_cupsutils.diff
 02_kuser_first_uid_gid_fix.diff
+03_set_knetworkconf_backends_scriptsdir.diff

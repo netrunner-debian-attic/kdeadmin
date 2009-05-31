@@ -1,0 +1,8 @@
+--- a/knetworkconf/backends/CMakeLists.txt
++++ b/knetworkconf/backends/CMakeLists.txt
+@@ -1,4 +1,4 @@
+-
++set(scriptsdir "${DATA_INSTALL_DIR}/knetworkconf/backends")
+ 
+ 
+ ########### install files ###############
