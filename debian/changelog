@@ -1,4 +1,6 @@
-kdeadmin (4:4.2.3-1) UNRELEASED; urgency=low
+kdeadmin (4:4.2.4-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Sune Vuorela:
 
@@ -15,7 +17,7 @@ kdeadmin (4:4.2.3-1) UNRELEASED; urgency=low
 
   +++ Changes by Martin Alfke:
 
-  * added gentoo patch (03_set_knetworkconf_backends_scriptsdir.diff) for proper 
+  * Add gentoo patch (03_set_knetworkconf_backends_scriptsdir.diff) for proper
     scriptsdir substitution in knetworkconf backend scripts. (Closes: #493684)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 May 2009 20:59:18 +0200
