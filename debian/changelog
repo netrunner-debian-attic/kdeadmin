@@ -1,3 +1,11 @@
+kdeadmin (4:4.2.4-2) UNRELEASED; urgency=low
+
+  * Fix "gnome/gtk/glade dependencies" in system-config-printer-kde by
+    including Josselin Mouette's patch to cope with system-config-printer
+    split. (Closes: #525558)
+
+ -- Didier Raboud <didier@raboud.com>  Sat, 20 Jun 2009 18:01:35 +0200
+
 kdeadmin (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.
