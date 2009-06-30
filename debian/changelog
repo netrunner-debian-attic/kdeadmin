@@ -1,17 +1,15 @@
-kdeadmin (4:4.2.95-0r1) UNRELEASED; urgency=low
-
-  * New upstream snapshot.
-  * Remove patch 03_set_knetworkconf_backends_scriptsdir.diff which is available upstream.
-
- -- Martin Alfke <martin@ppcnux.de>  Tue, 30 Jun 2009 17:07:09 +0200
-
 kdeadmin (4:4.2.4-2) UNRELEASED; urgency=low
 
+  +++ Changes by Didier Raboud
   * Fix "gnome/gtk/glade dependencies" in system-config-printer-kde by
     including Josselin Mouette's patch to cope with system-config-printer
     split. (Closes: #525558)
 
- -- Didier Raboud <didier@raboud.com>  Sat, 20 Jun 2009 18:01:35 +0200
+  +++ Changes by Martin Alfke
+  * Remove patch 03_set_knetworkconf_backends_scriptsdir.diff
+    which has been included upstream
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Jun 2009 17:20:52 +0200
 
 kdeadmin (4:4.2.4-1) unstable; urgency=low
 
