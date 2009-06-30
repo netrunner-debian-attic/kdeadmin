@@ -1,3 +1,10 @@
+kdeadmin (4:4.2.95-0r1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+  * Remove patch 03_set_knetworkconf_backends_scriptsdir.diff which is available upstream.
+
+ -- Martin Alfke <martin@ppcnux.de>  Tue, 30 Jun 2009 17:07:09 +0200
+
 kdeadmin (4:4.2.4-2) UNRELEASED; urgency=low
 
   * Fix "gnome/gtk/glade dependencies" in system-config-printer-kde by
