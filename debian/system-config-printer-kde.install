@@ -1,4 +1,5 @@
-usr/bin/system-config-printer-kde
+# disabled for now
+#usr/bin/system-config-printer-kde
 usr/share/applications/kde4/system-config-printer-kde.desktop
 usr/share/kde4/apps/system-config-printer-kde/new-printer.ui
 usr/share/kde4/apps/system-config-printer-kde/system-config-printer-kde.py
