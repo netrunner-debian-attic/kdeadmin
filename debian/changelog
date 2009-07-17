@@ -18,6 +18,7 @@ kdeadmin (4:4.2.96-1) experimental; urgency=low
   * Bump kdepimlibs-dev build dependency to >= 4:4.2.96.
   * Bump Standards-Version from 3.8.1 to 3.8.2 (no changes needed).
   * Merge system-config-printer-kde patches for cupsutils usage and the split.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jul 2009 12:17:57 +0200
 
