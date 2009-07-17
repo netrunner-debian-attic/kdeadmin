@@ -1,15 +1,24 @@
-kdeadmin (4:4.2.4-2) UNRELEASED; urgency=low
+kdeadmin (4:4.2.96-1) experimental; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Didier Raboud
+
   * Fix "gnome/gtk/glade dependencies" in system-config-printer-kde by
     including Josselin Mouette's patch to cope with system-config-printer
     split. (Closes: #525558)
 
   +++ Changes by Martin Alfke
+
   * Remove patch 03_set_knetworkconf_backends_scriptsdir.diff
     which has been included upstream
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Jun 2009 17:20:52 +0200
+  +++ Changes by Fathi Boudra:
+
+  * Bump kdepimlibs-dev build dependency to >= 4:4.2.96.
+  * Bump Standards-Version from 3.8.1 to 3.8.2 (no changes needed).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jul 2009 12:17:57 +0200
 
 kdeadmin (4:4.2.4-1) unstable; urgency=low
 
