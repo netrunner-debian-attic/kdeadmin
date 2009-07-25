@@ -1,14 +1,20 @@
+kdeadmin (4:4.2.96-0~pre1) UNRELEASED; urgency=low
+
+  * New upstream release, RC 3.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 25 Jul 2009 20:30:08 +0200
+
 kdeadmin (4:4.2.96-1) experimental; urgency=low
 
   * New upstream release.
 
-  +++ Changes by Didier Raboud
+  +++ Changes by Didier Raboud:
 
   * Fix "gnome/gtk/glade dependencies" in system-config-printer-kde by
     including Josselin Mouette's patch to cope with system-config-printer
     split. (Closes: #525558, #536233)
 
-  +++ Changes by Martin Alfke
+  +++ Changes by Martin Alfke:
 
   * Remove patch 03_set_knetworkconf_backends_scriptsdir.diff
     which has been included upstream
