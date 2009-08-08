@@ -1,3 +1,9 @@
+kdeadmin (4:4.3.0-2) UNRELEASED; urgency=low
+
+  * Add watch file.
+
+ -- Didier Raboud <didier@raboud.com>  Sat, 08 Aug 2009 21:42:18 +0200
+
 kdeadmin (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
