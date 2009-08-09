@@ -1,6 +1,8 @@
 kdeadmin (4:4.3.0-2) UNRELEASED; urgency=low
 
   * Add watch file.
+  * Refresh 01_system_config_printer_kde_cupsutils.diff to correctly import 
+    options.py. THIS NEED TO BE TESTED !
 
  -- Didier Raboud <didier@raboud.com>  Sat, 08 Aug 2009 21:42:18 +0200
 
