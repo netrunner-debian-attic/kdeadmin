@@ -1,8 +1,7 @@
 kdeadmin (4:4.3.0-2) UNRELEASED; urgency=high
 
-  * Add watch file.
   * Refresh 01_system_config_printer_kde_cupsutils.diff to correctly import 
-    options.py. THIS NEED TO BE TESTED !
+    options.py.
   * Add DEP-3 header to 02_kuser_first_uid_gid_fix.diff 
   * Add patch 03_stick_to_qt.diff to avoid a "missing kpushbutton" crash
     (Closes: #540735)
