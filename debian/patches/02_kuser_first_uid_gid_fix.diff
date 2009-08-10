@@ -1,4 +1,7 @@
-Normal users/group IDs start at 1000 on Debian.
+Description: Normal users/group IDs start at 1000 on Debian.
+Origin: vendor
+Author: Modestas Vainus
+Last-Update: 2009-04-19
 
 --- a/kuser/CMakeLists.txt
 +++ b/kuser/CMakeLists.txt
