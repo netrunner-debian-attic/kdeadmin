@@ -1,0 +1,18 @@
+Description: s-c-p-k fails with a type mismatch error - fix that.
+Origin: vendor
+Author: Didier Raboud <didier@raboud.com>
+Last-Update: 2009-08-10
+Index: kdeadmin-4.3.0/system-config-printer-kde/options.py
+===================================================================
+--- kdeadmin-4.3.0.orig/system-config-printer-kde/options.py	2009-08-10 14:26:59.000000000 +0200
++++ kdeadmin-4.3.0/system-config-printer-kde/options.py	2009-08-10 14:30:40.000000000 +0200
+@@ -137,8 +137,7 @@
+                   self.ipp_type == int and
+                   self.combobox_map != None):
+                 self.widget.clear()
+-                for each in supported:
+-                    self.widget.addItem(self.combobox_dict[each])
++                self.widget.addItem(self.combobox_dict[supported])
+         if original_value != None:
+             self.original_value = self.ipp_type (original_value)
+             self.set_widget_value (self.original_value)
