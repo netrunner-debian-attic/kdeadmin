@@ -1,4 +1,3 @@
 01_system_config_printer_kde_cupsutils.diff
 02_kuser_first_uid_gid_fix.diff
-03_stick_to_qt.diff
-04_fix_runtime_fail_type_mismatch.diff
+03_fix_runtime_fail_type_mismatch.diff
