@@ -1,5 +1,5 @@
-Description: Disable KDE-specific custom-widgets. For an unknown reason, they
- fail to compile
+Description: Disable KDE-specific custom-widgets. pykdeuic.py and kde4.py are
+ not found, not used and it simply fails.
 Origin: vendor
 Author: Didier Raboud <didier@raboud.com>
 Bug: http://bugs.debian.org/540735
