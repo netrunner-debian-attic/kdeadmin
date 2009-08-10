@@ -1,13 +1,15 @@
 Description: Disable KDE-specific custom-widgets. pykdeuic.py and kde4.py are
  not found, not used and it simply fails.
+ - This patch is inherently broken as it forces the use of PyQT4 instead of upstream's use of PyKDE4.
+ - This is (IMHO) due to kde-bindings doing something false with python-kde4.
 Origin: vendor
 Author: Didier Raboud <didier@raboud.com>
 Bug: http://bugs.debian.org/540735
 Last-Update: 2009-08-10
 Index: kdeadmin-4.3.0/system-config-printer-kde/system-config-printer.ui
 ===================================================================
---- kdeadmin-4.3.0.orig/system-config-printer-kde/system-config-printer.ui	2009-08-10 13:58:13.000000000 +0200
-+++ kdeadmin-4.3.0/system-config-printer-kde/system-config-printer.ui	2009-08-10 14:00:07.000000000 +0200
+--- kdeadmin-4.3.0.orig/system-config-printer-kde/system-config-printer.ui	2009-08-10 20:42:41.000000000 +0200
++++ kdeadmin-4.3.0/system-config-printer-kde/system-config-printer.ui	2009-08-10 20:47:43.000000000 +0200
 @@ -68,7 +68,7 @@
         <item>
          <layout class="QGridLayout" name="gridLayout">
@@ -173,6 +175,96 @@ Index: kdeadmin-4.3.0/system-config-printer-kde/system-config-printer.ui
 -   <extends>QLineEdit</extends>
 -   <header>klineedit.h</header>
 -  </customwidget>
+-  <customwidget>
+-   <class>KPushButton</class>
+-   <extends>QPushButton</extends>
+-   <header>kpushbutton.h</header>
+-  </customwidget>
+- </customwidgets>
+  <resources/>
+  <connections/>
+ </ui>
+Index: kdeadmin-4.3.0/system-config-printer-kde/ipp-browse-dialog.ui
+===================================================================
+--- kdeadmin-4.3.0.orig/system-config-printer-kde/ipp-browse-dialog.ui	2009-08-10 20:48:20.000000000 +0200
++++ kdeadmin-4.3.0/system-config-printer-kde/ipp-browse-dialog.ui	2009-08-10 20:48:29.000000000 +0200
+@@ -38,7 +38,7 @@
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout" >
+     <item>
+-     <widget class="KPushButton" name="btnIPPBrowseRefresh" >
++     <widget class="QPushButton" name="btnIPPBrowseRefresh" >
+       <property name="text" >
+        <string>Refresh</string>
+       </property>
+@@ -58,7 +58,7 @@
+      </spacer>
+     </item>
+     <item>
+-     <widget class="KPushButton" name="btnIPPBrowseOk" >
++     <widget class="QPushButton" name="btnIPPBrowseOk" >
+       <property name="text" >
+        <string>Ok</string>
+       </property>
+@@ -68,7 +68,7 @@
+      </widget>
+     </item>
+     <item>
+-     <widget class="KPushButton" name="btnIPPBrowseCancel" >
++     <widget class="QPushButton" name="btnIPPBrowseCancel" >
+       <property name="text" >
+        <string>Cancel</string>
+       </property>
+@@ -112,13 +112,6 @@
+    </column>
+   </widget>
+  </widget>
+- <customwidgets>
+-  <customwidget>
+-   <class>KPushButton</class>
+-   <extends>QPushButton</extends>
+-   <header>kpushbutton.h</header>
+-  </customwidget>
+- </customwidgets>
+  <resources/>
+  <connections/>
+ </ui>
+Index: kdeadmin-4.3.0/system-config-printer-kde/smb-browse-dialog.ui
+===================================================================
+--- kdeadmin-4.3.0.orig/system-config-printer-kde/smb-browse-dialog.ui	2009-08-10 20:47:56.000000000 +0200
++++ kdeadmin-4.3.0/system-config-printer-kde/smb-browse-dialog.ui	2009-08-10 20:48:14.000000000 +0200
+@@ -38,7 +38,7 @@
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout" >
+     <item>
+-     <widget class="KPushButton" name="btnSMBBrowseRefresh" >
++     <widget class="QPushButton" name="btnSMBBrowseRefresh" >
+       <property name="text" >
+        <string>Refresh</string>
+       </property>
+@@ -58,7 +58,7 @@
+      </spacer>
+     </item>
+     <item>
+-     <widget class="KPushButton" name="btnSMBBrowseOk" >
++     <widget class="QPushButton" name="btnSMBBrowseOk" >
+       <property name="text" >
+        <string>Ok</string>
+       </property>
+@@ -68,7 +68,7 @@
+      </widget>
+     </item>
+     <item>
+-     <widget class="KPushButton" name="btnSMBBrowseCancel" >
++     <widget class="QPushButton" name="btnSMBBrowseCancel" >
+       <property name="text" >
+        <string>Cancel</string>
+       </property>
+@@ -112,13 +112,6 @@
+    </column>
+   </widget>
+  </widget>
+- <customwidgets>
 -  <customwidget>
 -   <class>KPushButton</class>
 -   <extends>QPushButton</extends>
