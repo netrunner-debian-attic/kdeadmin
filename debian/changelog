@@ -1,12 +1,20 @@
-kdeadmin (4:4.3.0-2) UNRELEASED; urgency=low
+kdeadmin (4:4.3.1-0r1) UNRELEASED; urgency=low
 
-  * Refresh 01_system_config_printer_kde_cupsutils.diff to correctly import 
+  * New upstream release.
+
+  +++ Changes by Didier Raboud:
+
+  * Refresh 01_system_config_printer_kde_cupsutils.diff to correctly import
     options.py.
-  * Add DEP-3 header to 02_kuser_first_uid_gid_fix.diff 
+  * Add DEP-3 header to 02_kuser_first_uid_gid_fix.diff patch.
   * Add patch 03_fix_runtime_fail_type_mismatch.diff to fix a runtime failure
     due to type mismatch.
 
- -- Didier Raboud <didier@raboud.com>  Sat, 08 Aug 2009 21:42:18 +0200
+  +++ Changes by Fathi Boudra:
+
+  * Bump KDE build dependencies to 4.3.1.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 31 Aug 2009 15:42:18 +0200
 
 kdeadmin (4:4.3.0-1) unstable; urgency=low
 
