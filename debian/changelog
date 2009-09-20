@@ -5,7 +5,7 @@ kdeadmin (4:4.3.1-1) unstable; urgency=low
   +++ Changes by Didier Raboud:
 
   * Refresh 01_system_config_printer_kde_cupsutils.diff to correctly import
-    options.py.
+    options.py (Closes: #540735).
   * Add DEP-3 header to 02_kuser_first_uid_gid_fix.diff patch.
   * Add patch 03_fix_runtime_fail_type_mismatch.diff to fix a runtime failure
     due to type mismatch.
