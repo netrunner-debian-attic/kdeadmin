@@ -1,12 +1,14 @@
 kdeadmin (4:4.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - system-config-printer-kde works again with non-English locales.
+      (Closes: #565816)
 
   [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Feb 2010 13:59:08 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Feb 2010 14:00:09 +0100
 
 kdeadmin (4:4.3.4-1) unstable; urgency=low
 
