@@ -1,4 +1,4 @@
-kdeadmin (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
+kdeadmin (4:4.4.1-0) UNRELEASED; urgency=low
 
   * New upstream release:
     - system-config-printer-kde works again with non-English locales.
