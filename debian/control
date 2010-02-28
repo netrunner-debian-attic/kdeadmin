@@ -14,8 +14,8 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdeadmin
 Package: kdeadmin
 Section: kde
 Architecture: all
-Depends: kcron (>= ${source:Version}), knetworkconf (>= ${source:Version}),
- kpackage (>= ${source:Version}), ksystemlog (>= ${source:Version}),
+Depends: kde-config-cron (>= ${source:Version}), knetworkconf (>= ${source:Version}),
+ ksystemlog (>= ${source:Version}),
  kuser (>= ${source:Version})
 Recommends: system-config-printer-kde (>= ${source:Version})
 Description: system administration tools from the official KDE 4 release
@@ -31,11 +31,24 @@ Description: system administration tools from the official KDE 4 release
 
 Package: kcron
 Section: admin
+Architecture: all
+Depends: kde-config-cron
+Description: program scheduler frontend - transitional package
+ This package helps migrating from the kcron standalone app to the kde
+ config module in kde-config-cron.
+ .
+ It is a transitional package. it can safely be removed
+
+Package: kde-config-cron
+Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: program scheduler for KDE 4
- KCron is an application for scheduling programs to run at specific intervals
+Conflicts: kcron (<< 4:4.4)
+Replaces: kcron (<< 4:4.4)
+Description: program scheduler frontend
+ kde-config-cron is a kde configuration module for
+ for scheduling programs to run at specific intervals
  using cron, the UNIX scheduling service.
  .
  This package is part of the KDE 4 administration module.
@@ -47,18 +60,6 @@ Depends: ${shlibs:Depends}
 Description: network configuration tool for KDE 4
  KNetworkConf is a system settings module to configure networking.
  It can be used to manage network devices, gateways, and host information.
- .
- This package is part of the KDE 4 administration module.
-
-Package: kpackage
-Section: admin
-Architecture: any
-Depends: ${shlibs:Depends}, smartpm-core
-Suggests: khelpcenter, rpm
-Description: package management tool for KDE 4
- KPackage is a frontend to the SMART package manager, supporting Debian, RPM,
- and other package formats.  It can be used to search for, examine, install,
- and remove packages.
  .
  This package is part of the KDE 4 administration module.
 

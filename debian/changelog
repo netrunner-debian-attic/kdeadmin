@@ -1,4 +1,4 @@
-kdeadmin (4:4.4.1-0) UNRELEASED; urgency=low
+kdeadmin (4:4.4.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - system-config-printer-kde works again with non-English locales.
@@ -9,6 +9,13 @@ kdeadmin (4:4.4.1-0) UNRELEASED; urgency=low
   * Fix Vcs-Browser URL.
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
+ 
+  [ Sune Vuorela ]
+  * Remove 03_fix_runtime_fail_type_mismatch, merged upstream.
+  * KPackage dead, remove it.
+  * Rename kcron to kde-config-cron to match agreed upon naming scheme. keep
+    transitional package until squeeze is out.
+  * Update install files
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:18:56 +0200
 
