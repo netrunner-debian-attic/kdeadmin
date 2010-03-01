@@ -23,8 +23,9 @@ kdeadmin (4:4.4.1-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Tweak descriptions a bit.
   * Make kde-config-cron depend on cron | anacron (a bit pointless otherwise).
+  * Add dependency on ${misc:Depends} in all the packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Mar 2010 15:13:45 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Mar 2010 15:18:08 +0100
 
 kdeadmin (4:4.3.4-1) unstable; urgency=low
 

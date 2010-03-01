@@ -14,7 +14,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdeadmin
 Package: kdeadmin
 Section: kde
 Architecture: all
-Depends: kde-config-cron (>= ${source:Version}), knetworkconf (>= ${source:Version}),
+Depends: ${misc:Depends}, kde-config-cron (>= ${source:Version}), knetworkconf (>= ${source:Version}),
  ksystemlog (>= ${source:Version}),
  kuser (>= ${source:Version})
 Recommends: system-config-printer-kde (>= ${source:Version})
@@ -32,7 +32,7 @@ Description: system administration tools from the official KDE release
 Package: kcron
 Section: admin
 Architecture: all
-Depends: kde-config-cron
+Depends: ${misc:Depends}, kde-config-cron
 Description: program scheduler frontend - transitional package
  This package helps migrating from the kcron standalone app to the kde
  config module in kde-config-cron.
@@ -42,7 +42,7 @@ Description: program scheduler frontend - transitional package
 Package: kde-config-cron
 Section: admin
 Architecture: any
-Depends: ${shlibs:Depends}, cron | anacron
+Depends: ${shlibs:Depends}, ${misc:Depends}, cron | anacron
 Suggests: khelpcenter
 Conflicts: kcron (<< 4:4.4)
 Replaces: kcron (<< 4:4.4)
@@ -55,7 +55,7 @@ Description: program scheduler frontend
 Package: knetworkconf
 Section: net
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: network configuration tool for KDE
  KNetworkConf is a system settings module to configure networking.
  It can be used to manage network devices, gateways, and host information.
@@ -65,7 +65,7 @@ Description: network configuration tool for KDE
 Package: ksystemlog
 Section: admin
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: system log viewer for KDE
  KSystemLog show all logs of your system, grouped by General (Default system 
  log, Authentication, Kernel, X.org...), and optional Services (Apache, Cups,
@@ -80,7 +80,7 @@ Description: system log viewer for KDE
 Package: kuser
 Section: admin
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter
 Description: user and group administration tool for KDE
  KUser is an application for managing users and groups on your system.
@@ -101,7 +101,7 @@ Description: KDE printer configuration utility
 Package: kdeadmin-dbg
 Section: debug
 Architecture: any
-Depends: kdebase-runtime-dbg
+Depends: ${misc:Depends}, kdebase-runtime-dbg
 Suggests: kdeadmin (= ${source:Version})
 Priority: extra
 Description: debugging symbols for kdeadmin
