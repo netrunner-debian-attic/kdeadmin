@@ -43,7 +43,7 @@ Package: kde-config-cron
 Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, cron | anacron
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Conflicts: kcron (<< 4:4.4)
 Replaces: kcron (<< 4:4.4)
 Description: program scheduler frontend
@@ -81,7 +81,7 @@ Package: kuser
 Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: user and group administration tool for KDE
  KUser is an application for managing users and groups on your system.
  .
