@@ -42,7 +42,7 @@ Description: program scheduler frontend - transitional package
 Package: kde-config-cron
 Section: admin
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, cron | anacron
 Suggests: khelpcenter
 Conflicts: kcron (<< 4:4.4)
 Replaces: kcron (<< 4:4.4)
