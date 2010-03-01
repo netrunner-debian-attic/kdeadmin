@@ -20,7 +20,10 @@ kdeadmin (4:4.4.1-0r1) UNRELEASED; urgency=low
     transitional package until squeeze is out.
   * Update install files
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:18:56 +0200
+  [ Pino Toscano ]
+  * Tweak descriptions a bit.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Mar 2010 15:10:17 +0100
 
 kdeadmin (4:4.3.4-1) unstable; urgency=low
 

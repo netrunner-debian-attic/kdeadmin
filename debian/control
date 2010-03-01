@@ -18,7 +18,7 @@ Depends: kde-config-cron (>= ${source:Version}), knetworkconf (>= ${source:Versi
  ksystemlog (>= ${source:Version}),
  kuser (>= ${source:Version})
 Recommends: system-config-printer-kde (>= ${source:Version})
-Description: system administration tools from the official KDE 4 release
+Description: system administration tools from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -27,7 +27,7 @@ Description: system administration tools from the official KDE 4 release
  educational, graphics and software development.
  .
  This metapackage includes a collection of system administration tools
- provided with the official release of KDE 4.
+ provided with the official release of KDE.
 
 Package: kcron
 Section: admin
@@ -37,7 +37,7 @@ Description: program scheduler frontend - transitional package
  This package helps migrating from the kcron standalone app to the kde
  config module in kde-config-cron.
  .
- It is a transitional package. it can safely be removed
+ It is a transitional package that can be safely removed.
 
 Package: kde-config-cron
 Section: admin
@@ -47,57 +47,56 @@ Suggests: khelpcenter
 Conflicts: kcron (<< 4:4.4)
 Replaces: kcron (<< 4:4.4)
 Description: program scheduler frontend
- kde-config-cron is a kde configuration module for
- for scheduling programs to run at specific intervals
- using cron, the UNIX scheduling service.
+ kde-config-cron is a KDE configuration module for scheduling programs to run
+ at specific intervals using cron, the UNIX scheduling service.
  .
- This package is part of the KDE 4 administration module.
+ This package is part of the KDE administration module.
 
 Package: knetworkconf
 Section: net
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: network configuration tool for KDE 4
+Description: network configuration tool for KDE
  KNetworkConf is a system settings module to configure networking.
  It can be used to manage network devices, gateways, and host information.
  .
- This package is part of the KDE 4 administration module.
+ This package is part of the KDE administration module.
 
 Package: ksystemlog
 Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: system log viewer for KDE 4
+Description: system log viewer for KDE
  KSystemLog show all logs of your system, grouped by General (Default system 
- log, Authentication, Kernel, X.org...), and optional Services. (Apache, Cups,
+ log, Authentication, Kernel, X.org...), and optional Services (Apache, Cups,
  etc, ...). It includes many features to read nicely your log files:
   * Colorize log lines depending on their severities
   * Tabbed view to allow displaying several logs at the same time
   * Auto display new lines logged
   * Detailed informations for each log lines
  .
- This package is part of the KDE 4 administration module.
+ This package is part of the KDE administration module.
 
 Package: kuser
 Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: user and group administration tool for KDE 4
+Description: user and group administration tool for KDE
  KUser is an application for managing users and groups on your system.
  .
- This package is part of the KDE 4 administration module.
+ This package is part of the KDE administration module.
 
 Package: system-config-printer-kde
 Section: admin
 Architecture: all
 Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, python-qt4-dbus,
  python-kde4 (>= 4:4.2.0), python-cupsutils (>= 1.0.0-6)
-Description: KDE 4 printer configuration utility
- This package contains a KDE4 based application which can be used to configure
+Description: KDE printer configuration utility
+ This package contains a KDE application which can be used to configure
  and manage printers.
  .
- This package is part of the KDE 4 administration module.
+ This package is part of the KDE administration module.
 
 Package: kdeadmin-dbg
 Section: debug
@@ -109,3 +108,5 @@ Description: debugging symbols for kdeadmin
  This package contains the debugging symbols associated with kdeadmin.
  They will automatically be used by gdb for debugging kdeadmin-related
  issues.
+ .
+ This package is part of the KDE administration module.
