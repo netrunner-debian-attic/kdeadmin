@@ -1,4 +1,4 @@
-kdeadmin (4:4.4.1-0r1) UNRELEASED; urgency=low
+kdeadmin (4:4.4.1-0rc1) UNRELEASED; urgency=low
 
   * New upstream release:
     - system-config-printer-kde works again with non-English locales.
@@ -26,7 +26,7 @@ kdeadmin (4:4.4.1-0r1) UNRELEASED; urgency=low
   * Add dependency on ${misc:Depends} in all the packages.
   * Change the khelpcenter suggest to khelpcenter4.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Mar 2010 15:19:49 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 22:14:13 +0200
 
 kdeadmin (4:4.3.4-1) unstable; urgency=low
 
