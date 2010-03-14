@@ -15,7 +15,7 @@ kdeadmin (4:4.4.1-0rc1) UNRELEASED; urgency=low
  
   [ Sune Vuorela ]
   * Remove 03_fix_runtime_fail_type_mismatch, merged upstream.
-  * KPackage dead, remove it.
+  * KPackage dead, remove it. (Closes: #523450)
   * Rename kcron to kde-config-cron to match agreed upon naming scheme. keep
     transitional package until squeeze is out.
   * Update install files
