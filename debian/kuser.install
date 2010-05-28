@@ -1,9 +1,9 @@
 usr/bin/kuser
 usr/share/applications/kde4/kuser.desktop
-usr/share/doc/kde4/HTML/en/kuser/common
-usr/share/doc/kde4/HTML/en/kuser/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kuser/index.docbook
-usr/share/doc/kde4/HTML/en/kuser/kuser.png
+usr/share/doc/kde/HTML/en/kuser/common
+usr/share/doc/kde/HTML/en/kuser/index.cache.bz2
+usr/share/doc/kde/HTML/en/kuser/index.docbook
+usr/share/doc/kde/HTML/en/kuser/kuser.png
 usr/share/icons/hicolor/128x128/apps/kuser.png
 usr/share/icons/hicolor/16x16/apps/kuser.png
 usr/share/icons/hicolor/22x22/apps/kuser.png
