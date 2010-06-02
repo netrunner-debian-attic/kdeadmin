@@ -1,3 +1,10 @@
+kdeadmin (4:4.4.4-2) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * Remove all the leftovers of kpackage.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Jun 2010 12:59:01 +0200
+
 kdeadmin (4:4.4.4-1) unstable; urgency=low
 
   * New upstream release.

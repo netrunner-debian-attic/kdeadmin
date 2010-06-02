@@ -5,9 +5,6 @@ from:/kcron/
 miss dst:usr/lib/pkgconfig/system-tools-backends.pc$
 from:/knetworkconf/
 
-[kpackage]
-from:/kpackage/
-
 [ksystemlog]
 from:/ksystemlog/
 
