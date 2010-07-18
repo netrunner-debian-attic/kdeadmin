@@ -56,7 +56,7 @@ Package: knetworkconf
 Section: net
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: network configuration tool for KDE
+Description: network configuration tool
  KNetworkConf is a system settings module to configure networking.
  It can be used to manage network devices, gateways, and host information.
  .
@@ -66,7 +66,7 @@ Package: ksystemlog
 Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: system log viewer for KDE
+Description: system log viewer
  KSystemLog show all logs of your system, grouped by General (Default system 
  log, Authentication, Kernel, X.org...), and optional Services (Apache, Cups,
  etc, ...). It includes many features to read nicely your log files:
@@ -82,7 +82,7 @@ Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
-Description: user and group administration tool for KDE
+Description: user and group administration tool
  KUser is an application for managing users and groups on your system.
  .
  This package is part of the KDE administration module.
@@ -92,7 +92,7 @@ Section: admin
 Architecture: all
 Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, python-qt4-dbus,
  python-kde4 (>= 4:4.2.0), python-cupsutils (>= 1.0.0-6)
-Description: KDE printer configuration utility
+Description: printer configuration utility
  This package contains a KDE application which can be used to configure
  and manage printers.
  .
