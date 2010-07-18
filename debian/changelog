@@ -10,6 +10,7 @@ kdeadmin (4:4.4.5-1) UNRELEASED; urgency=low
 
   [ Sune Vuorela ]
   * Update descriptions
+  * Update email address
 
  -- Sune Vuorela <sune@debian.org>  Sun, 18 Jul 2010 11:51:26 +0200
 
