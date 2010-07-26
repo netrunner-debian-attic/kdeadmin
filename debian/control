@@ -8,8 +8,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  kdepimlibs5-dev (>= 4:4.4), docbook-to-man, python-support
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeadmin/#_trunk_packages_kdeadmin_
-Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdeadmin
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeadmin.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeadmin.git
 
 Package: kdeadmin
 Section: kde
