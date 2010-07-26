@@ -390,10 +390,3 @@ kdeadmin (4:3.96.0-1) experimental; urgency=low
   * Add not-installed file.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 23 Nov 2007 20:42:05 +0100
-
-kdeadmin (4:3.90.1-1) experimental; urgency=low
-
-  * Initial release.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 23 May 2007 18:15:59 +0200
-
