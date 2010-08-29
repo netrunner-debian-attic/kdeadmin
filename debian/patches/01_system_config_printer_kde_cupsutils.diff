@@ -1,28 +1,19 @@
-Description: Cope with system-config-printer split (now depends only on python-cupsutils)
+Description: Cope with system-config-printer split (now depends only on python-cupshelpers)
  Thanks to Josselin Mouette for the orginal patch.
 Origin: vendor: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=525558#21
 Bug-Debian: http://bugs.debian.org/525558
 Author: Didier Raboud <didier@raboud.com>
-Last-Update: 2009-08-09
+Last-Update: 2010-08-13
 
-Index: kdeadmin-4.3.0/system-config-printer-kde/cmake-modules/FindSystemConfigPrinter.py
-===================================================================
---- kdeadmin-4.3.0.orig/system-config-printer-kde/cmake-modules/FindSystemConfigPrinter.py	2009-08-09 00:36:41.000000000 +0200
-+++ kdeadmin-4.3.0/system-config-printer-kde/cmake-modules/FindSystemConfigPrinter.py	2009-08-09 11:25:52.000000000 +0200
-@@ -8,7 +8,7 @@
- sys.path.append (SYSTEM_CONFIG_PRINTER_DIR)
- 
- try:
--    import cupshelpers.ppds, cupshelpers.cupshelpers
-+    import cupsutils.ppds, cupsutils.cupshelpers
- except:
-     exit(1)
- print "Groovy"
-Index: kdeadmin-4.3.0/system-config-printer-kde/system-config-printer-kde.py
-===================================================================
---- kdeadmin-4.3.0.orig/system-config-printer-kde/system-config-printer-kde.py	2009-08-09 00:36:41.000000000 +0200
-+++ kdeadmin-4.3.0/system-config-printer-kde/system-config-printer-kde.py	2009-08-09 12:00:54.000000000 +0200
-@@ -33,11 +33,6 @@
+---
+ .../system-config-printer-kde.py                   |   28 ++++++-------------
+ 1 files changed, 9 insertions(+), 19 deletions(-)
+
+diff --git a/system-config-printer-kde/system-config-printer-kde.py b/system-config-printer-kde/system-config-printer-kde.py
+index 650d665..02c71eb 100755
+--- a/system-config-printer-kde/system-config-printer-kde.py
++++ b/system-config-printer-kde/system-config-printer-kde.py
+@@ -33,11 +33,6 @@ import locale
  
  import sys, os, time, traceback, re, tempfile, httplib, thread
  
@@ -34,7 +25,7 @@ Index: kdeadmin-4.3.0/system-config-printer-kde/system-config-printer-kde.py
  from PyQt4.QtCore import *
  from PyQt4.QtGui import *
  from PyQt4 import uic
-@@ -65,12 +60,16 @@
+@@ -65,12 +60,13 @@ uic.properties.Properties._string = translate
  import cups
  cups.require ("1.9.27")
  
@@ -42,21 +33,18 @@ Index: kdeadmin-4.3.0/system-config-printer-kde/system-config-printer-kde.py
 -import config
 -import cupshelpers, options
 +# These come from python-cupsutils
-+import cupsutils.ppds
-+try:
-+    import cupshelpers
-+except ImportError:
-+    from cupsutils import cupshelpers
++import cupshelpers.ppds
++from cupshelpers import cupshelpers
 +import options
  from optionwidgets import OptionWidget
 -from smburi import SMBURI
 -from debug import *
-+from cupsutils.smburi import SMBURI
-+from cupsutils.debug import *
++from cupshelpers.smburi import SMBURI
++from cupshelpers.debug import *
  
  import dbus
  import dbus.mainloop.qt
-@@ -898,10 +897,6 @@
+@@ -898,10 +894,6 @@ class GUI(QWidget):
              # otherwise use cups' default one
              custom_testpage = None
              opt = self.ppd.findOption ("PageSize")
@@ -67,7 +55,7 @@ Index: kdeadmin-4.3.0/system-config-printer-kde/system-config-printer-kde.py
  
              if custom_testpage and os.path.exists(custom_testpage):
                  debugprint ('Printing custom test page ' + custom_testpage)
-@@ -2083,11 +2078,9 @@
+@@ -2083,11 +2075,9 @@ class NewPrinterGUI(QDialog):
          #self.connect(self.btnNCAddMember, SIGNAL("clicked()"), self.slot_btnNCAddMember_clicked)
          #self.connect(self.btnNCDelMember, SIGNAL("clicked()"), self.slot_btnNCDelMember_clicked)
  
@@ -82,30 +70,4 @@ Index: kdeadmin-4.3.0/system-config-printer-kde/system-config-printer-kde.py
  
          """
          # Set up OpenPrinting widgets.
-@@ -2297,7 +2290,7 @@
-             c = cups.Connection ()
-             debugprint ("Fetching PPDs")
-             ppds_dict = c.getPPDs()
--            self.ppds_result = cupshelpers.ppds.PPDs(ppds_dict,
-+            self.ppds_result = cupsutils.ppds.PPDs(ppds_dict,
-                                                      language=language)
-             debugprint ("Closing connection (PPDs)")
-             del c
-@@ -2523,7 +2516,7 @@
-                         ppddict = self.ppds.getInfoFromPPDName (ppdname)
-                         make_model = ppddict['ppd-make-and-model']
-                         (make, model) = \
--                            cupshelpers.ppds.ppdMakeModelSplit (make_model)
-+                            cupsutils.ppds.ppdMakeModelSplit (make_model)
-                         self.auto_make = make
-                         self.auto_model = model
-                 except:
-@@ -2892,7 +2885,7 @@
-         if make_and_model and not device.id:
-             mk = None
-             md = None
--            (mk, md) = cupshelpers.ppds.ppdMakeModelSplit (make_and_model)
-+            (mk, md) = cupsutils.ppds.ppdMakeModelSplit (make_and_model)
-             device.id = "MFG:" + mk + ";MDL:" + md + ";DES:" + mk + " " + md + ";"
-             device.id_dict = cupshelpers.parseDeviceID (device.id)
-         # Check whether the device is supported by HPLIP and replace
+--
