@@ -1,4 +1,4 @@
-kdeadmin (4:4.4.5-2) UNRELEASED; urgency=low
+kdeadmin (4:4.4.5-2) unstable; urgency=low
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
