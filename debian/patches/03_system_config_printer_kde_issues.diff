@@ -1,0 +1,11 @@
+--- a/system-config-printer-kde/system-config-printer-kde.py
++++ b/system-config-printer-kde/system-config-printer-kde.py
+@@ -1868,7 +1868,7 @@ class GUI(QWidget):
+             else:
+                 msg = i18nc("HTTP error", "status %1", status)
+ 
+-        KMessageBox.error(self, i18n("There was an HTTP error: %1.", msg), i18n('CUPS server error'))
++            KMessageBox.error(self, i18n("There was an HTTP error: %1.", msg), i18n('CUPS server error'))
+ 
+     def getSelectedItem(self):
+         return unicode(self.mainListSelectedName), unicode(self.mainListSelectedType)

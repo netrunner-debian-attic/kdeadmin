@@ -1,9 +1,15 @@
 kdeadmin (4:4.4.5-2) UNRELEASED; urgency=low
 
+  [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
   * Modify changelog to reflect the actual history.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:32 +0300
+  [ Sune Vuorela ]
+  * Merge in Guido's NMU
+  * Fix the code regarding a message box in system-config-printer-kde 
+    (Closes: 593403)
+
+ -- Sune Vuorela <sune@debian.org>  Mon, 30 Aug 2010 02:08:09 +0200
 
 kdeadmin (4:4.4.5-1.1) experimental; urgency=low
 
