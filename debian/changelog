@@ -2,6 +2,9 @@ kdeadmin (4:4.5.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  [ José Manuel Santamaría Lema ]
+  * Bump KDE build dependencies to 4:4.5.
+
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 11 Sep 2010 20:07:52 +0000
 
 kdeadmin (4:4.4.5-2) unstable; urgency=low
