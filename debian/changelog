@@ -8,6 +8,13 @@ kdeadmin (4:4.5.1-0r1) UNRELEASED; urgency=low
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 11 Sep 2010 20:07:52 +0000
 
+kdeadmin (4:4.4.5-3) unstable; urgency=low
+
+  [ Modestas Vainius ]
+  * Properly merge all changes from 4.4.5-1.1 NMU. (Closes: #592900)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 13 Sep 2010 20:13:56 +0300
+
 kdeadmin (4:4.4.5-2) unstable; urgency=low
 
   [ Modestas Vainius ]
