@@ -1,5 +1,6 @@
 kdeadmin (4:4.4.5-3) UNRELEASED; urgency=low
 
+  * Properly merge all changes from 4.4.5-1.1 NMU. (Closes: #592900)
 
  -- Modestas Vainius <modax@debian.org>  Mon, 13 Sep 2010 20:04:56 +0300
 
