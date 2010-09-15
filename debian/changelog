@@ -5,7 +5,8 @@ kdeadmin (4:4.5.1-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump KDE build dependencies to 4:4.5.
   * Update installed files.
-  * Bump to Standards-Version 3.9.1, no changes needed.
+  * Bump to Standards-Version 3.9.1:
+    - kde-config-cron breaks kcron (<< 4:4.4) rather than conflicts.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 11 Sep 2010 20:07:52 +0000
 
