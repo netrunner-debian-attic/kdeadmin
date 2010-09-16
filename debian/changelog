@@ -1,5 +1,6 @@
-kdeadmin (4:4.4.5-4) UNRELEASED; urgency=low
+kdeadmin (4:4.4.5-4) unstable; urgency=low
 
+  [ Modestas Vainius ]
   * Properly load cupshelpers module (i.e. fix
     01_system_config_printer_kde_cupsutils.diff patch). (Closes: #597071)
   * Backport a bunch of PyQt 4.7 compatibility fixes from upstream VCS
@@ -7,7 +8,7 @@ kdeadmin (4:4.4.5-4) UNRELEASED; urgency=low
   * Do not enormously enlarge the window when Printer Options dialog is opened
     (patch 05_system_config_printer_kde_scroll_printer_options.diff).
 
- -- Modestas Vainius <modax@debian.org>  Thu, 16 Sep 2010 19:07:08 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Sep 2010 02:00:46 +0300
 
 kdeadmin (4:4.4.5-3) unstable; urgency=low
 
