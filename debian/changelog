@@ -1,5 +1,7 @@
 kdeadmin (4:4.4.5-4) UNRELEASED; urgency=low
 
+  * Properly load cupshelpers module (i.e. fix
+    01_system_config_printer_kde_cupsutils.diff patch). (Closes: #597071)
 
  -- Modestas Vainius <modax@debian.org>  Thu, 16 Sep 2010 19:07:08 +0300
 
