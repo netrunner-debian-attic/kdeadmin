@@ -4,6 +4,8 @@ kdeadmin (4:4.4.5-4) UNRELEASED; urgency=low
     01_system_config_printer_kde_cupsutils.diff patch). (Closes: #597071)
   * Backport a bunch of PyQt 4.7 compatibility fixes from upstream VCS
     (patch 04_system_config_printer_kde_pyqt4.7_issues.diff).
+  * Do not enormously enlarge the window when Printer Options dialog is opened
+    (patch 05_system_config_printer_kde_scroll_printer_options.diff).
 
  -- Modestas Vainius <modax@debian.org>  Thu, 16 Sep 2010 19:07:08 +0300
 
