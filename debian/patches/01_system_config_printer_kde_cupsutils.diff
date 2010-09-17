@@ -48,7 +48,7 @@ Last-Update: 2010-09-16
  
              if custom_testpage and os.path.exists(custom_testpage):
                  debugprint ('Printing custom test page ' + custom_testpage)
-@@ -2083,11 +2073,9 @@ class NewPrinterGUI(QDialog):
+@@ -2085,11 +2075,9 @@ class NewPrinterGUI(QDialog):
          #self.connect(self.btnNCAddMember, SIGNAL("clicked()"), self.slot_btnNCAddMember_clicked)
          #self.connect(self.btnNCDelMember, SIGNAL("clicked()"), self.slot_btnNCDelMember_clicked)
  
