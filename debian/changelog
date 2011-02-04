@@ -3,7 +3,8 @@ kdeadmin (4:4.6.0-0r1) UNRELEASED; urgency=low
   * New upstream release.
 
   [ José Manuel Santamaría Lema ]
-  * Bump KDE build dependencies to 4:4.5.
+  * Bump build dependency on kdelibs5-dev to 4:4.6.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
   * Update installed files.
   * Bump to Standards-Version 3.9.1:
     - kde-config-cron breaks kcron (<< 4:4.4) rather than conflicts.
