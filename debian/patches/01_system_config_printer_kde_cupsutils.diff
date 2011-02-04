@@ -9,7 +9,7 @@ Last-Update: 2010-09-16
 
 --- a/system-config-printer-kde/system-config-printer-kde.py
 +++ b/system-config-printer-kde/system-config-printer-kde.py
-@@ -33,11 +33,6 @@ import locale
+@@ -33,11 +33,6 @@
  
  import sys, os, time, traceback, re, tempfile, httplib, thread
  
@@ -21,7 +21,7 @@ Last-Update: 2010-09-16
  from PyQt4.QtCore import *
  from PyQt4.QtGui import *
  from PyQt4 import uic
-@@ -65,12 +60,11 @@ uic.properties.Properties._string = tran
+@@ -65,12 +60,11 @@
  import cups
  cups.require ("1.9.27")
  
@@ -37,7 +37,7 @@ Last-Update: 2010-09-16
  
  import dbus
  import dbus.mainloop.qt
-@@ -898,10 +892,6 @@ class GUI(QWidget):
+@@ -903,10 +897,6 @@
              # otherwise use cups' default one
              custom_testpage = None
              opt = self.ppd.findOption ("PageSize")
@@ -48,7 +48,7 @@ Last-Update: 2010-09-16
  
              if custom_testpage and os.path.exists(custom_testpage):
                  debugprint ('Printing custom test page ' + custom_testpage)
-@@ -2085,11 +2075,9 @@ class NewPrinterGUI(QDialog):
+@@ -2090,11 +2080,9 @@
          #self.connect(self.btnNCAddMember, SIGNAL("clicked()"), self.slot_btnNCAddMember_clicked)
          #self.connect(self.btnNCDelMember, SIGNAL("clicked()"), self.slot_btnNCDelMember_clicked)
  
