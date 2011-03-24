@@ -14,7 +14,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeadmin.git
 Package: kdeadmin
 Section: kde
 Architecture: all
-Depends: ${misc:Depends}, kde-config-cron (>= ${source:Version}), knetworkconf (>= ${source:Version}),
+Depends: ${misc:Depends}, kde-config-cron (>= ${source:Version}),
  ksystemlog (>= ${source:Version}),
  kuser (>= ${source:Version})
 Recommends: system-config-printer-kde (>= ${source:Version})
@@ -52,15 +52,15 @@ Description: program scheduler frontend
  .
  This package is part of the KDE administration module.
 
-Package: knetworkconf
-Section: net
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: network configuration tool
- KNetworkConf is a system settings module to configure networking.
- It can be used to manage network devices, gateways, and host information.
- .
- This package is part of the KDE administration module.
+#Package: knetworkconf
+#Section: net
+#Architecture: any
+#Depends: ${shlibs:Depends}, ${misc:Depends}
+#Description: network configuration tool
+# KNetworkConf is a system settings module to configure networking.
+# It can be used to manage network devices, gateways, and host information.
+# .
+# This package is part of the KDE administration module.
 
 Package: ksystemlog
 Section: admin

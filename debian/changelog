@@ -10,6 +10,7 @@ kdeadmin (4:4.6.1-0r0) UNRELEASED; urgency=low
     - kde-config-cron breaks kcron (<< 4:4.4) rather than conflicts.
   * Drop 03_system_config_printer_kde_issues.diff, no longer needed.
   * Refresh 01_system_config_printer_kde_cupsutils.diff.
+  * Remove knetworkconf package.
 
   [ Modestas Vainius ]
   * Drop 04_system_config_printer_kde_pyqt4.7_issues.diff patch, it was
