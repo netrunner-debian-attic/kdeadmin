@@ -9,6 +9,7 @@ kdeadmin (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Bump to Standards-Version 3.9.1:
     - kde-config-cron breaks kcron (<< 4:4.4) rather than conflicts.
   * Drop 03_system_config_printer_kde_issues.diff, no longer needed.
+  * Refresh 01_system_config_printer_kde_cupsutils.diff.
 
   [ Modestas Vainius ]
   * Drop 04_system_config_printer_kde_pyqt4.7_issues.diff patch, it was

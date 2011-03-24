@@ -5,7 +5,7 @@ Bug-Debian: http://bugs.debian.org/525558
 Bug-Debian: http://bugs.debian.org/597071
 Author: Didier Raboud <didier@raboud.com>
 Author: Modestas Vainius <modax@debian.org>
-Last-Update: 2010-09-16
+Last-Update: 2010-04-02
 
 --- a/system-config-printer-kde/system-config-printer-kde.py
 +++ b/system-config-printer-kde/system-config-printer-kde.py
