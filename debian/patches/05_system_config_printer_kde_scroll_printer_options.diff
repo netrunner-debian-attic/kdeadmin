@@ -26,7 +26,7 @@ bar.
          return self.ui
  
      # now called  dests_iconview_item_activated() in the Gnome version
-@@ -1321,6 +1326,8 @@ class GUI(QWidget):
+@@ -1323,6 +1328,8 @@ class GUI(QWidget):
          self.swPInstallOptions.show_all()
          self.swPOptions.show_all()
          """
@@ -37,15 +37,6 @@ bar.
      # Class members
 --- a/system-config-printer-kde/system-config-printer.ui
 +++ b/system-config-printer-kde/system-config-printer.ui
-@@ -548,7 +548,7 @@ print to.</string>
-                <item>
-                 <widget class="QLabel" name="lblNotPublished">
-                  <property name="text">
--                  <string comment="KDE::DoNotExtract" >TextLabel</string>
-+                  <string comment="KDE::DoNotExtract">TextLabel</string>
-                  </property>
-                 </widget>
-                </item>
 @@ -865,26 +865,29 @@ print to.</string>
              </attribute>
              <layout class="QVBoxLayout" name="verticalLayout_3">

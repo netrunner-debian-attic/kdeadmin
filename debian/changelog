@@ -1,3 +1,21 @@
+kdeadmin (4:4.5.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump KDE build dependencies to 4:4.5.
+  * Update installed files.
+  * Bump to Standards-Version 3.9.1:
+    - kde-config-cron breaks kcron (<< 4:4.4) rather than conflicts.
+
+  [ Modestas Vainius ]
+  * Drop 04_system_config_printer_kde_pyqt4.7_issues.diff patch, it was
+    backported from upstream.
+  * Adapt 05_system_config_printer_kde_scroll_printer_options.diff to upstream
+    changes.
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 11 Sep 2010 20:07:52 +0000
+
 kdeadmin (4:4.4.5-4) unstable; urgency=low
 
   [ Modestas Vainius ]
