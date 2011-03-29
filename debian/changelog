@@ -19,6 +19,7 @@ kdeadmin (4:4.6.1-0r1) UNRELEASED; urgency=low
     backported from upstream.
   * Adapt 05_system_config_printer_kde_scroll_printer_options.diff to upstream
     changes.
+  * Strip sequence numbers from debian/patches/*.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 11 Sep 2010 20:07:52 +0000
 
