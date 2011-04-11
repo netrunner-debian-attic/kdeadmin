@@ -1,3 +1,0 @@
-#This file serves no purpose that we can see, and conflicts
-#with GNOME system tools, so be sure to leave it out.
-./usr/lib/pkgconfig/system-tools-backends.pc
