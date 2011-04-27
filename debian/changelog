@@ -1,4 +1,4 @@
-kdeadmin (4:4.6.2-0r1) UNRELEASED; urgency=low
+kdeadmin (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -23,7 +23,7 @@ kdeadmin (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*:
     - require pkg-kde-tools 0.12, which has debian/man/* generation fix.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 11 Apr 2011 21:01:03 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:38 +0300
 
 kdeadmin (4:4.4.5-4) unstable; urgency=low
 
