@@ -6,7 +6,7 @@ Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Armin
  José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.6.5),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.6), docbook-to-man, python-support
+ kdepimlibs5-dev (>= 4:4.6), docbook-to-man, python
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeadmin.git
@@ -91,7 +91,7 @@ Description: user and group administration tool
 Package: system-config-printer-kde
 Section: admin
 Architecture: all
-Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, python-qt4-dbus,
+Depends: ${python:Depends}, ${misc:Depends}, python-qt4-dbus,
  python-kde4 (>= 4:4.2.0), python-cupshelpers (>= 1.2.3-0.2~)
 Description: printer configuration utility
  This package contains a KDE application which can be used to configure
