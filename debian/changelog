@@ -1,10 +1,10 @@
-kdeadmin (4:4.6.5-2) UNRELEASED; urgency=low
+kdeadmin (4:4.6.5-2) unstable; urgency=low
 
   [ Modestas Vainius ]
   * Switch to dh_python2 and actually enable byte-compilation for
     system-config-printer-kde.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 20 Jul 2011 00:53:20 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 20 Jul 2011 00:56:56 +0300
 
 kdeadmin (4:4.6.5-1) unstable; urgency=low
 
