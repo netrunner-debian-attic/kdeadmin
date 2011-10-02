@@ -5,13 +5,13 @@ Bug-Debian: http://bugs.debian.org/525558
 Bug-Debian: http://bugs.debian.org/597071
 Author: Didier Raboud <didier@raboud.com>
 Author: Modestas Vainius <modax@debian.org>
-Last-Update: 2010-04-02
+Last-Update: 2011-10-02
 
 --- a/system-config-printer-kde/system-config-printer-kde.py
 +++ b/system-config-printer-kde/system-config-printer-kde.py
 @@ -33,11 +33,6 @@
  
- import sys, os, time, traceback, re, tempfile, httplib, thread
+ import sys, os, time, traceback, re, tempfile, httplib, thread, string
  
 -#load modules from system-config-printer-common (debug, smburi), change path here if you have it installed elsewhere
 -SYSTEM_CONFIG_PRINTER_DIR = "/usr/share/system-config-printer"
@@ -21,9 +21,9 @@ Last-Update: 2010-04-02
  from PyQt4.QtCore import *
  from PyQt4.QtGui import *
  from PyQt4 import uic
-@@ -65,12 +60,11 @@
- import cups
- cups.require ("1.9.27")
+@@ -71,12 +66,12 @@
+ except:
+     PYSMB_AVAILABLE=False
  
 -# These come from system-config-printer
 -import config
@@ -34,10 +34,11 @@ Last-Update: 2010-04-02
 -from debug import *
 +from cupshelpers.smburi import SMBURI
 +from cupshelpers.debug import *
++
+ import authconn
  
  import dbus
- import dbus.mainloop.qt
-@@ -903,10 +897,6 @@
+@@ -975,10 +970,6 @@
              # otherwise use cups' default one
              custom_testpage = None
              opt = self.ppd.findOption ("PageSize")
@@ -48,7 +49,7 @@ Last-Update: 2010-04-02
  
              if custom_testpage and os.path.exists(custom_testpage):
                  debugprint ('Printing custom test page ' + custom_testpage)
-@@ -2090,11 +2080,9 @@
+@@ -2167,11 +2158,9 @@
          #self.connect(self.btnNCAddMember, SIGNAL("clicked()"), self.slot_btnNCAddMember_clicked)
          #self.connect(self.btnNCDelMember, SIGNAL("clicked()"), self.slot_btnNCDelMember_clicked)
  
