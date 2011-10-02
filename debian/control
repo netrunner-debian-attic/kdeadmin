@@ -35,7 +35,7 @@ Section: admin
 Architecture: all
 Depends: ${misc:Depends}, kde-config-cron
 Description: program scheduler frontend - transitional package
- This package helps migrating from the kcron standalone app to the kde
+ This package helps migrating from the kcron standalone app to the KDE
  config module in kde-config-cron.
  .
  It is a transitional package that can be safely removed.

@@ -4,6 +4,9 @@ kdeadmin (4:4.7.1-0r0) UNRELEASED; urgency=low
   * New upstream release.
   * Update patches/system_config_printer_kde_cupsutils.diff.
   * Update installed files.
+  * Fix lintian infos:
+    * copyright-with-old-dh-make-debian-copyright
+    * kcron: capitalization-error-in-description kde KDE
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Oct 2011 14:07:07 +0100
 
