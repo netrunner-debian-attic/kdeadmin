@@ -1,3 +1,7 @@
+debian/debug.py usr/share/kde4/apps/system-config-printer-kde/
+debian/ppdippstr.py usr/share/kde4/apps/system-config-printer-kde/
+debian/pysmb.py usr/share/kde4/apps/system-config-printer-kde/
+debian/smburi.py usr/share/kde4/apps/system-config-printer-kde/
 usr/share/kde4/apps/system-config-printer-kde/authconn.py
 usr/share/kde4/apps/system-config-printer-kde/ipp-browse-dialog.ui
 usr/share/kde4/apps/system-config-printer-kde/new-printer.ui
@@ -8,6 +12,3 @@ usr/share/kde4/apps/system-config-printer-kde/smb-browse-dialog.ui
 usr/share/kde4/apps/system-config-printer-kde/system-config-printer-kde.py
 usr/share/kde4/apps/system-config-printer-kde/system-config-printer.ui
 usr/share/kde4/services/system-config-printer-kde.desktop
-debian/ppdippstr.py usr/share/kde4/apps/system-config-printer-kde/
-debian/pysmb.py usr/share/kde4/apps/system-config-printer-kde/
-debian/smburi.py usr/share/kde4/apps/system-config-printer-kde/
