@@ -8,6 +8,9 @@ kdeadmin (4:4.7.1-0r1) UNRELEASED; urgency=low
     * copyright-with-old-dh-make-debian-copyright
     * kcron: capitalization-error-in-description kde KDE
 
+  [ José Manuel Santamaría Lema ]
+  * Add some files needed by system-config-printer-kde.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Oct 2011 14:07:07 +0100
 
 kdeadmin (4:4.6.5-2) unstable; urgency=low
