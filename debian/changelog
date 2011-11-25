@@ -11,6 +11,10 @@ kdeadmin (4:4.7.2-0r2) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Add some files needed by system-config-printer-kde.
 
+  [ Pino Toscano ]
+  * Manage some packages renamings:
+    - kdeadmin-dbg depends on kde-runtime-dbg instead of kdebase-runtime-dbg.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Oct 2011 14:07:07 +0100
 
 kdeadmin (4:4.6.5-2) unstable; urgency=low

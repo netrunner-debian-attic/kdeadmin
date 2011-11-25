@@ -102,7 +102,7 @@ Description: printer configuration utility
 Package: kdeadmin-dbg
 Section: debug
 Architecture: any
-Depends: ${misc:Depends}, kdebase-runtime-dbg
+Depends: ${misc:Depends}, kde-runtime-dbg
 Suggests: kdeadmin (= ${source:Version})
 Priority: extra
 Description: debugging symbols for kdeadmin
