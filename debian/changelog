@@ -1,4 +1,4 @@
-kdeadmin (4:4.7.2-0r2) UNRELEASED; urgency=low
+kdeadmin (4:4.7.2-0r2) experimental; urgency=low
 
   [ Daniele E. Domenichelli ]
   * New upstream release.
@@ -15,7 +15,7 @@ kdeadmin (4:4.7.2-0r2) UNRELEASED; urgency=low
   * Manage some packages renamings:
     - kdeadmin-dbg depends on kde-runtime-dbg instead of kdebase-runtime-dbg.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Oct 2011 14:07:07 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:43 -0300
 
 kdeadmin (4:4.6.5-2) unstable; urgency=low
 
