@@ -1,4 +1,4 @@
-kdeadmin (4:4.7.4-0r0) UNRELEASED; urgency=low
+kdeadmin (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -6,7 +6,7 @@ kdeadmin (4:4.7.4-0r0) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Bump kde-sc-dev-latest build dependency to 4.7.4.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 13:40:09 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:37:00 +0100
 
 kdeadmin (4:4.7.2-1) experimental; urgency=low
 
