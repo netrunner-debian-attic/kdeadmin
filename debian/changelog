@@ -1,3 +1,10 @@
+kdeadmin (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+  * Update uploaders, remove Armin.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 15:08:32 +0100
+
 kdeadmin (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
