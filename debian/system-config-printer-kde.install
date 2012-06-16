@@ -2,6 +2,20 @@ debian/debug.py usr/share/kde4/apps/system-config-printer-kde/
 debian/ppdippstr.py usr/share/kde4/apps/system-config-printer-kde/
 debian/pysmb.py usr/share/kde4/apps/system-config-printer-kde/
 debian/smburi.py usr/share/kde4/apps/system-config-printer-kde/
+usr/share/doc/kde/HTML/en/system-config-printer-kde/common
+usr/share/doc/kde/HTML/en/system-config-printer-kde/index.cache.bz2
+usr/share/doc/kde/HTML/en/system-config-printer-kde/index.docbook
+usr/share/doc/kde/HTML/en/system-config-printer-kde/new-class.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/new-details.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/new-driver.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/new-manufacturer.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/new-uri.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/new.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/printer-job-options.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/printer-options.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/printer-policies.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/printer-settings.png
+usr/share/doc/kde/HTML/en/system-config-printer-kde/server.png
 usr/share/kde4/apps/system-config-printer-kde/authconn.py
 usr/share/kde4/apps/system-config-printer-kde/ipp-browse-dialog.ui
 usr/share/kde4/apps/system-config-printer-kde/new-printer.ui

@@ -7,6 +7,7 @@ kdeadmin (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Bump build dependency on kdepimlibs5-dev to 4:4.8.
   * Update Standards-Version to 3.9.3 (no further changes).
   * Add watch file.
+  * Update installed files.
 
  -- Eshat Cakar <info@eshat.de>  Sun, 13 May 2012 14:41:01 +0200
 
