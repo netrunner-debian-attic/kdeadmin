@@ -3,6 +3,10 @@ kdeadmin (4:4.8.4-1) unstable; urgency=low
   * Team upload.
   * New upstream release.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove duplicated Section field for package kdeadmin. Simply inherit
+    it from the source package.
+
   [ Eshat Cakar ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
   * Bump build dependency on kdepimlibs5-dev to 4:4.8.

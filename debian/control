@@ -16,7 +16,6 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeadmin.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeadmin.git
 
 Package: kdeadmin
-Section: kde
 Architecture: all
 Depends: ${misc:Depends}, kde-config-cron (>= ${source:Version}),
  ksystemlog (>= ${source:Version}),
