@@ -1,4 +1,4 @@
-kdeadmin (4:4.8.4-0r0) UNRELEASED; urgency=low
+kdeadmin (4:4.8.4-1) unstable; urgency=low
 
   * Team upload.
   * New upstream release.
@@ -10,7 +10,7 @@ kdeadmin (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Add watch file.
   * Update installed files.
 
- -- Eshat Cakar <info@eshat.de>  Sun, 13 May 2012 14:41:01 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 19 Jun 2012 10:12:22 -0300
 
 kdeadmin (4:4.7.4-2) unstable; urgency=low
 
