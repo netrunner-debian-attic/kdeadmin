@@ -1,2 +1,3 @@
 system_config_printer_kde_cupsutils.diff
 kuser_first_uid_gid_fix.diff
+lp_lpadmin_warning.patch

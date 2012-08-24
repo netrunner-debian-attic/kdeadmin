@@ -1,0 +1,119 @@
+Description: Adds a warning to the user to be in the lp/lpadmin group
+ This tool does not works if the user is not in the lp/lpadmin group.
+ This patch adds a note to the user informing this situation.
+Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Bug-Debian: http://bugs.debian.org/659155
+Forwarded: no
+Last-Update: 2012-08-24
+
+--- kdeadmin-4.8.4.orig/system-config-printer-kde/system-config-printer.ui
++++ kdeadmin-4.8.4/system-config-printer-kde/system-config-printer.ui
+@@ -6,7 +6,7 @@
+    <rect>
+     <x>0</x>
+     <y>0</y>
+-    <width>826</width>
++    <width>850</width>
+     <height>509</height>
+    </rect>
+   </property>
+@@ -42,11 +42,11 @@
+       </sizepolicy>
+      </property>
+      <property name="currentIndex">
+-      <number>2</number>
++      <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+-      <layout class="QVBoxLayout" name="verticalLayout_4">
+-       <item>
++      <layout class="QGridLayout" name="gridLayout_17">
++       <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+@@ -65,7 +65,7 @@
+          </property>
+         </widget>
+        </item>
+-       <item>
++       <item row="1" column="0">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="KPushButton" name="btnNewPrinter">
+@@ -153,7 +153,30 @@ print to.</string>
+          </item>
+         </layout>
+        </item>
+-       <item>
++       <item row="2" column="0">
++        <spacer name="verticalSpacer_5">
++         <property name="orientation">
++          <enum>Qt::Vertical</enum>
++         </property>
++         <property name="sizeHint" stdset="0">
++          <size>
++           <width>478</width>
++           <height>23</height>
++          </size>
++         </property>
++        </spacer>
++       </item>
++       <item row="3" column="0">
++        <widget class="QLabel" name="warningLabel">
++         <property name="text">
++          <string>&lt;strong&gt;Note:&lt;/strong&gt; your user needs to be in the lp / lpadmin group for being able to use this tool.</string>
++         </property>
++         <property name="textFormat">
++          <enum>Qt::RichText</enum>
++         </property>
++        </widget>
++       </item>
++       <item row="4" column="0">
+         <spacer name="verticalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+@@ -877,8 +900,8 @@ print to.</string>
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+-                  <width>532</width>
+-                  <height>427</height>
++                  <width>92</width>
++                  <height>22</height>
+                  </rect>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_5">
+@@ -912,7 +935,7 @@ print to.</string>
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+-                  <width>515</width>
++                  <width>535</width>
+                   <height>1026</height>
+                  </rect>
+                 </property>
+@@ -1774,11 +1797,6 @@ if they are not already set by the appli
+    <header>kcombobox.h</header>
+   </customwidget>
+   <customwidget>
+-   <class>KIntSpinBox</class>
+-   <extends>QSpinBox</extends>
+-   <header>knuminput.h</header>
+-  </customwidget>
+-  <customwidget>
+    <class>KLineEdit</class>
+    <extends>QLineEdit</extends>
+    <header>klineedit.h</header>
+@@ -1788,6 +1806,11 @@ if they are not already set by the appli
+    <extends>QPushButton</extends>
+    <header>kpushbutton.h</header>
+   </customwidget>
++  <customwidget>
++   <class>KIntSpinBox</class>
++   <extends>QSpinBox</extends>
++   <header>knuminput.h</header>
++  </customwidget>
+  </customwidgets>
+  <resources/>
+  <connections/>
