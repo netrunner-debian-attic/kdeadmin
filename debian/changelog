@@ -3,6 +3,7 @@ kdeadmin (4:4.8.4-2) unstable; urgency=low
   * Add lp_lpadmin_warning.patch to tell the user that it needs to be in the
     lp/lpadmin group in order to use system-config-printer-kde. It doesn't
     solves #659155, but allows us to downgrade the severity.
+  * Add myself to Uploaders.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 26 Nov 2012 17:30:35 -0300
 
