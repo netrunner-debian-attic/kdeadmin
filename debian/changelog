@@ -1,3 +1,9 @@
+kdeadmin (4:4.8.4-3) UNRELEASED; urgency=low
+
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Dec 2012 11:23:14 -0300
+
 kdeadmin (4:4.8.4-2) unstable; urgency=low
 
   * Add lp_lpadmin_warning.patch to tell the user that it needs to be in the
