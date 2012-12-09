@@ -95,7 +95,7 @@ Package: system-config-printer-kde
 Section: admin
 Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}, python-qt4-dbus,
- python-kde4 (>= 4:4.2.0), python-cupshelpers (>= 1.2.3-0.2~)
+ python-kde4 (>= 4:4.2.0), python-cupshelpers (>= 1.2.3-0.2~), python-gobject
 Description: printer configuration utility
  This package contains a KDE application which can be used to configure
  and manage printers.
