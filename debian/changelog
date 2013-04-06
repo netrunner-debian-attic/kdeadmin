@@ -15,6 +15,7 @@ kdeadmin (4:4.10.2-0r0) UNRELEASED; urgency=low
     - Refresh kuser_first_uid_gid_fix.diff.
   * Remove knetworkconf references in control and install file which are not
     used, as it has been dropped upstream.
+  * Update copyright file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Apr 2013 01:30:34 +0200
 

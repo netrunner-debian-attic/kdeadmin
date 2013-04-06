@@ -17,47 +17,16 @@ Unless something else is mentioned, copyright is
     Copyright (C) 1999, Robert Berry <rjmber@ntlworld.com> 
     Copyright (C) 2007, Nicolas Ternisien
 
-  kdat:
-    Copyright (C) 2001-2002  Lawrence Widman, kdat@cardiothink.com
-    Copyright (C) 1998-2000  Sean Vyain, svyain@mail.tds.net
-    Copyright (C) 1997 Johannes Sixt
-    Copyright (C) 1996 Keith Brown and KtSoft
-
-  knetworkconf:
-    Copyright (C) 2003-2005 by Juan Luis Baptiste
-    Copyright (C) 2000-2001 Ximian, inc
-    Copyright (C) Michael Vogt  <mvo@debian.org>
-    Copyright (C) Grzegorz Golawski <grzegol@pld-linux.org>
-    Copyright (C) David Lee Ludwig <davidl@wpi.edu>
-    Copyright (C) Kenneth Christiansen <kenneth@gnu.org>
-  
-  kpackage:
-    Copyright (C) 1999-2007 Toivo Pedaste <toivo@ucs.uwa.edu.au>
-    Copyright (C) Damyan Pepper
-
   ksystemlog:
     Copyright (C) 2007 Nicolas Ternisien <nicolas.ternisien@gmail.com>
-
-  ksysv:
-    Copyright (C) 1997-2000 Peter Putzer <putzer@kde.org>
-    Copyright (C) 1999 Preston Brown <pbrown@kde.org>
-    Copyright (C) 2002 Waldo Bastian <bastian@kde.org>
 
   kuser:
     Copyright (C) 1998 Denis Perchine <dyp@perchine.org>
     Copyright (C) 2004-2006 Szombathelyi Gyurgy <guerco@freemail.hu>
     Copyright (C) 2002 Waldo Bastian <bastian@kde.org>
 
-  lilo-config:
-    Copyright (C) 2000-2001 Bernhard Rosenkraenzer
-
   strigi-analyzer:
     Copyright (C) 2002 Laurence Anderson <l.d.anderson@warwick.ac.uk>
-
-  system-config-printer-kde:
-    Copyright (C) 2008 Jonathan Riddell <jriddell@ubuntu.com>
-    Copyright (C) 2007 Tim Waugh <twaugh@redhat.com>
-    Copyright (C) 2007 Red Hat, Inc.
 
 
 
