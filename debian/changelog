@@ -8,6 +8,10 @@ kdeadmin (4:4.10.2-0r0) UNRELEASED; urgency=low
   * Remove python build dependency, system-config-printer-kde has been removed.
   * Add nepomuk-core-dev build dependency.
   * Remove system-config-printer-kde package which has been dropped upstream.
+  * Update patches:
+    - Drop system_config_printer_kde_cupsutils.diff, not needed.
+    - Drop lp_lpadmin_warning.patch, not needed.
+    - Drop system_config_printer_kde_scroll_printer_options.diff, not applied.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Apr 2013 01:30:34 +0200
 
