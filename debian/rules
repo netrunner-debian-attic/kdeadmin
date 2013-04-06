@@ -1,16 +1,8 @@
 #!/usr/bin/make -f
 
-dh = --with=python2
-
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
-
-override_dh_auto_configure:
-	$(overridden_command) -- -DINSTALL_SYSTEM_CONFIG_PRINTER=TRUE
 
 .PHONY: override_dh_auto_test
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdeadmin-dbg
-
-override_dh_python2:
-	$(overridden_command) -p system-config-printer-kde /usr/share/kde4/apps/system-config-printer-kde
