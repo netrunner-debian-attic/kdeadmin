@@ -55,16 +55,6 @@ Description: program scheduler frontend
  .
  This package is part of the KDE administration module.
 
-#Package: knetworkconf
-#Section: net
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Description: network configuration tool
-# KNetworkConf is a system settings module to configure networking.
-# It can be used to manage network devices, gateways, and host information.
-# .
-# This package is part of the KDE administration module.
-
 Package: ksystemlog
 Section: admin
 Architecture: any
