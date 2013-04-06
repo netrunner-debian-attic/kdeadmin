@@ -2,6 +2,12 @@ kdeadmin (4:4.10.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  [ Josep Febrer Salord ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.10.2.
+  * Bump kdepimlibs5-dev build dependency to 4:4.10.2.
+  * Remove python build dependency, system-config-printer-kde has been removed.
+  * Add nepomuk-core-dev build dependency.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Apr 2013 01:30:34 +0200
 
 kdeadmin (4:4.8.4-3) unstable; urgency=low
