@@ -5,7 +5,6 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
  Fathi Boudra <fabo@debian.org>,
  Modestas Vainius <modax@debian.org>,
- José Manuel Santamaría Lema <panfaust@gmail.com>,
  Eshat Cakar <info@eshat.de>,
  Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
