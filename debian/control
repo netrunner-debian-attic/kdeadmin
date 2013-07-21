@@ -33,8 +33,9 @@ Description: system administration tools from the official KDE release
  provided with the official release of KDE.
 
 Package: kcron
-Section: admin
+Section: oldlibs
 Architecture: all
+Priority: extra
 Depends: ${misc:Depends}, kde-config-cron
 Description: program scheduler frontend - transitional package
  This package helps migrating from the kcron standalone app to the KDE
