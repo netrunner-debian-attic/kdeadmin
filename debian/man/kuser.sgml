@@ -240,7 +240,7 @@ manpage.1: manpage.sgml
 	  <option>--bg &lt;colour&gt;</option></term>
 	<listitem>
 	  <para>Sets the default background colour and application
-	  pallette.</para>
+	  palette.</para>
 	</listitem>
       </varlistentry>
       <varlistentry>
