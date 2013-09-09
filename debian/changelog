@@ -1,13 +1,13 @@
-kdeadmin (4:4.10.5-2) UNRELEASED; urgency=low
+kdeadmin (4:4.10.5-2) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * Fix section and priority of kcron to be oldlibs/extra, since it is a
     transitional package.
   * Typo fix in kuser's man page.
   * Drop the kdeadmin metapackage (moved to meta-kde).
   * Remove the version from kdeadmin suggestion in kdeadmin-dbg.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 15:33:22 +0200
+ -- Pino Toscano <pino@debian.org>  Mon, 09 Sep 2013 11:31:31 +0200
 
 kdeadmin (4:4.10.5-1) unstable; urgency=low
 
