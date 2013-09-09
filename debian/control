@@ -16,22 +16,6 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdeadmin.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdeadmin.git
 
-Package: kdeadmin
-Architecture: all
-Depends: ${misc:Depends}, kde-config-cron (>= ${source:Version}),
- ksystemlog (>= ${source:Version}),
- kuser (>= ${source:Version})
-Description: system administration tools from the official KDE release
- KDE is produced by an international technology team that creates free and open
- source software for desktop and portable computing. Among KDE's products are a
- modern desktop system for Linux and UNIX platforms, comprehensive office
- productivity and groupware suites and hundreds of software titles in many
- categories including Internet and web applications, multimedia, entertainment,
- educational, graphics and software development.
- .
- This metapackage includes a collection of system administration tools
- provided with the official release of KDE.
-
 Package: kcron
 Section: oldlibs
 Architecture: all
