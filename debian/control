@@ -69,7 +69,7 @@ Package: kdeadmin-dbg
 Section: debug
 Architecture: any
 Depends: ${misc:Depends}, kde-runtime-dbg
-Suggests: kdeadmin (= ${source:Version})
+Suggests: kdeadmin
 Priority: extra
 Description: debugging symbols for kdeadmin
  This package contains the debugging symbols associated with kdeadmin.
